@@ -4,7 +4,7 @@
 Nyein Project (Structural-Logic Extraction Framework - SLEF) is designed for Burmese language computational logic and academic research.
 
 ## License
-This project is licensed under the [Nyein Academic Use License (NAUL)](./LICENSE).
+This project is licensed under the [Nyein Academic Use License (NAUL)](LICENSE.md).
 
 **Key Restrictions:**
 - Academic and Non-Commercial Use Only
