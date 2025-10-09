@@ -1,0 +1,49 @@
+JSON
+
+{
+    "T003": {
+        "essence": "Innovation & Growth",
+        "potential_tension": ["T017", "T004"],
+        "myanmar": "မီး"
+    },
+    "T004": {
+        "essence": "Stability & Land",
+        "potential_tension": ["T003", "T011"],
+        "myanmar": "မြေ"
+    },
+    "T010": {
+        "essence": "Empathy & Flow",
+        "potential_tension": ["T020", "T011"],
+        "myanmar": "ရေ"
+    },
+    "T011": {
+        "essence": "Technology & Knowledge",
+        "potential_tension": ["T004", "T010"],
+        "myanmar": "လေ"
+    },
+    "T017": {
+        "essence": "Ethics & Boundary",
+        "potential_tension": ["T003", "T029", "T007"],
+        "myanmar": "သီလ"
+    },
+    "T020": {
+        "essence": "Law & Rule",
+        "potential_tension": ["T010", "T007"],
+        "myanmar": "ဥပဒေ"
+    },
+    "T029": {
+        "essence": "Emotion & Perception",
+        "potential_tension": ["T017", "T020"],
+        "myanmar": "စိတ်ခံစားမှု"
+    },
+    "T007": {
+        "essence": "Connection & Community",
+        "potential_tension": ["T020", "T017"],
+        "myanmar": "ဆက်သွယ်မှု"
+    },
+    "T009": {
+        "essence": "Healing & Solution",
+        "potential_tension": ["T017", "T029"],
+        "myanmar": "ကုသခြင်း"
+    }
+}
