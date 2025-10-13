@@ -1,0 +1,77 @@
+    def _identify_cultural_gaps(self, patterns):
+        """ယဉ်ကျေးမှုဆိုင်ရာ adaption ချို့ယွင်းချက်များကို ဖော်ထုတ်ပါ"""
+        
+        suggestions = []
+        
+        # Analyze guidance effectiveness across different cultural contexts
+        cultural_effectiveness = {}
+        for scenario in patterns.get("high_effectiveness_scenarios", []):
+            context = scenario.get("cultural_context", "universal")
+            approach = scenario.get("guidance_approach", "")
+            
+            if context not in cultural_effectiveness:
+                cultural_effectiveness[context] = []
+            cultural_effectiveness[context].append(approach)
+        
+        # Identify contexts with limited success
+        universal_success = len(cultural_effectiveness.get("universal", []))
+        for context, approaches in cultural_effectiveness.items():
+            if context != "universal" and len(approaches) < universal_success * 0.3:
+                suggestion = {
+                    "tcode": "CULTURAL_ADAPTATION",
+                    "pattern_type": "CULTURAL_GAP",
+                    "problem": f"Limited effectiveness in {context} cultural context.",
+                    "hypothesis": f"T-Code interpretations may not be adequately adapted for {context} values and communication styles.",
+                    "recommended_action": f"Develop culture-specific interpretations and examples for {context} context.",
+                    "specific_examples": [
+                        f"Collaborate with {context} cultural experts for T-Code adaptation",
+                        f"Create context-specific metaphor libraries for {context} applications"
+                    ],
+                    "priority": "MEDIUM_CULTURAL",
+                    "expected_impact": "Improved cross-cultural applicability and effectiveness"
+                }
+                suggestions.append(suggestion)
+        
+        return suggestions
+    
+    def _assess_polarity_balance(self, patterns):
+        """T-Code polarity ချိန်ခွင်လျှာ ညီမျှမှုကို အကဲဖြတ်ပါ"""
+        
+        suggestions = []
+        
+        # Analyze polarity distribution in guidance
+        polarity_focus = {"positive": 0, "negative": 0, "balanced": 0}
+        for scenario in patterns.get("high_effectiveness_scenarios", []):
+            guidance = scenario.get("ai_guidance_content", "")
+            
+            if "negative pole" in guidance.lower() or "risk" in guidance.lower():
+                polarity_focus["negative"] += 1
+            elif "positive pole" in guidance.lower() or "benefit" in guidance.lower():
+                polarity_focus["positive"] += 1
+            else:
+                polarity_focus["balanced"] += 1
+        
+        total_cases = sum(polarity_focus.values())
+        if total_cases == 0:
+            return suggestions
+        
+        negative_ratio = polarity_focus["negative"] / total_cases
+        positive_ratio = polarity_focus["positive"] / total_cases
+        
+        if negative_ratio > self.ethical_drift_indicators["polarity_imbalance"]["detection_threshold"]:
+            suggestion = {
+                "tcode": "POLARITY_SYSTEM",
+                "pattern_type": "NEGATIVE_BIAS",
+                "problem": f"Excessive focus on negative poles ({negative_ratio:.1%} of cases).",
+                "hypothesis": "The system may be over-emphasizing risks and limitations rather than growth opportunities.",
+                "recommended_action": "Re-balance guidance toward positive poles and balanced expressions.",
+                "specific_examples": [
+                    "Reframe warnings as growth opportunities",
+                    "Develop guidance that starts from strengths rather than deficits"
+                ],
+                "priority": "MEDIUM_PSYCHOLOGICAL",
+                "expected_impact": "More empowering and growth-oriented user experience"
+            }
+            suggestions.append(suggestion)
+        
+        return suggestions
