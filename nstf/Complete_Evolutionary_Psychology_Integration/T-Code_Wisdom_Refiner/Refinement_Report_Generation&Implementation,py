@@ -1,0 +1,131 @@
+    def _generate_refinement_report(self, suggestions, patterns):
+        """ပြည့်စုံသော refinement အစီရင်ခံစာကို ထုတ်ပေးပါ"""
+        
+        if not suggestions:
+            return {
+                "status": "OPTIMAL",
+                "message": "No significant ethical drift or conceptual narrowing detected.",
+                "last_refinement": self.refinement_history[-1] if self.refinement_history else "Initial State"
+            }
+        
+        # Categorize suggestions by priority
+        high_priority = [s for s in suggestions if s["priority"] == "HIGH_ETHICAL_REVIEW"]
+        medium_priority = [s for s in suggestions if "MEDIUM" in s["priority"]]
+        
+        report = {
+            "report_id": f"refinement_{int(time.time())}",
+            "generated_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "overall_status": "REFINEMENT_NEEDED",
+            "summary_metrics": {
+                "total_suggestions": len(suggestions),
+                "high_priority_items": len(high_priority),
+                "medium_priority_items": len(medium_priority),
+                "patterns_analyzed": len(patterns.get("high_effectiveness_scenarios", []))
+            },
+            "priority_recommendations": {
+                "high_priority": high_priority,
+                "medium_priority": medium_priority
+            },
+            "implementation_roadmap": self._create_implementation_roadmap(suggestions),
+            "validation_protocol": self._generate_validation_protocol(suggestions)
+        }
+        
+        return report
+    
+    def _create_implementation_roadmap(self, suggestions):
+        """Refinement suggestions များအတွက် လက်တွေ့အကောင်အထည်ဖော်ရန် လမ်းညွှန်ချက်"""
+        
+        roadmap = {
+            "immediate_actions": [],
+            "short_term_goals": [],
+            "long_term_evolution": []
+        }
+        
+        for suggestion in suggestions:
+            if suggestion["priority"] == "HIGH_ETHICAL_REVIEW":
+                roadmap["immediate_actions"].append({
+                    "action": f"Review and refine T-Code {suggestion['tcode']} interpretation",
+                    "timeline": "Within 7 days",
+                    "owner": "Lead Ethics Developer + Cultural Consultant",
+                    "success_metrics": [
+                        f"Reduced resistance to {suggestion['tcode']} guidance",
+                        "Improved user engagement metrics"
+                    ]
+                })
+            elif "MEDIUM" in suggestion["priority"]:
+                roadmap["short_term_goals"].append({
+                    "action": f"Balance {suggestion['tcode']} usage in guidance system",
+                    "timeline": "Within 30 days", 
+                    "owner": "AI Training Team",
+                    "success_metrics": [
+                        "More balanced T-Code distribution",
+                        "Improved cross-context effectiveness"
+                    ]
+                })
+        
+        # Long-term evolution goals
+        roadmap["long_term_evolution"] = [
+            {
+                "goal": "Develop adaptive T-Code interpretation framework",
+                "timeline": "90 days",
+                "outcome": "Self-adjusting interpretations based on continuous learning"
+            },
+            {
+                "goal": "Establish cross-cultural T-Code council",
+                "timeline": "180 days", 
+                "outcome": "Diverse perspectives on ethical framework evolution"
+            }
+        ]
+        
+        return roadmap
+    
+    def _generate_validation_protocol(self, suggestions):
+        """Refinements များ၏ ထိရောက်မှုကို စစ်ဆေးရန် protocol"""
+        
+        validation_plan = {
+            "a_b_testing_scenarios": [],
+            "ethical_review_metrics": [],
+            "user_feedback_channels": []
+        }
+        
+        for suggestion in suggestions:
+            if suggestion["priority"] == "HIGH_ETHICAL_REVIEW":
+                validation_plan["a_b_testing_scenarios"].append({
+                    "test_case": f"T-Code {suggestion['tcode']} refinement",
+                    "group_a": "Current interpretation",
+                    "group_b": "Refined interpretation", 
+                    "primary_metric": "User engagement and resistance levels",
+                    "sample_size": "Minimum 100 interactions per group"
+                })
+            
+            validation_plan["ethical_review_metrics"].append({
+                "metric": f"{suggestion['tcode']} application balance",
+                "current_state": "Needs refinement",
+                "target_state": "Balanced across contexts",
+                "measurement_frequency": "Bi-weekly"
+            })
+        
+        validation_plan["user_feedback_channels"] = [
+            "Structured feedback on guidance perceived as restrictive",
+            "Cultural appropriateness ratings", 
+            "Long-term growth impact assessments"
+        ]
+        
+        return validation_plan
+    
+    def _log_refinement_cycle(self, report):
+        """Refinement cycle ကို မှတ်တမ်းတင်ပါ"""
+        
+        log_entry = {
+            "timestamp": time.time(),
+            "report_id": report.get("report_id"),
+            "status": report.get("overall_status"),
+            "actions_triggered": len(report.get("priority_recommendations", {}).get("high_priority", [])),
+            "summary": report.get("summary_metrics", {})
+        }
+        
+        self.refinement_history.append(log_entry)
+        
+        # Keep only last 100 entries
+        if len(self.refinement_history) > 100:
+            self.refinement_history = self.refinement_history[-100:]
