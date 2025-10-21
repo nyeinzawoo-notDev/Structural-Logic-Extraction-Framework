@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Myanmar Tokenizer</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; width: 320px; padding: 10px; margin: 0;}
+        h3 { font-size: 16px; margin-top: 0; margin-bottom: 10px; }
+        #tokenizeButton { 
+            padding: 8px 15px; 
+            background-color: #4CAF50; 
+            color: white; 
+            border: none; 
+            cursor: pointer; 
+            border-radius: 4px;
+            width: 100%;
+        }
+        #tokenizeButton:hover { background-color: #45a049; }
+        #results { 
+            margin-top: 10px; 
+            padding: 8px; 
+            border: 1px solid #ccc; 
+            max-height: 250px; 
+            overflow-y: auto; 
+            white-space: pre-wrap; 
+            word-wrap: break-word; 
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        .token { 
+            display: inline-block; 
+            padding: 2px 5px; 
+            margin: 1px; 
+            border-radius: 3px; 
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .myanmar { background-color: #e0f7fa; color: #00838f; }
+        .english { background-color: #fff3e0; color: #ff6f00; }
+        .number { background-color: #e8eaf6; color: #3f51b5; }
+        .punctuation { background-color: #fce4ec; color: #c2185b; }
+        .info { color: gray; font-size: 12px; margin-bottom: 5px; }
+        .error { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h3>မြန်မာစာ Tokenizer</h3>
+    <button id="tokenizeButton">ရွေးချယ်ထားသော စာသားကို ခွဲခြမ်းစိတ်ဖြာရန်</button>
+    <div id="results" class="info">စာသားတစ်ခုကို ရွေးချယ်ပြီး ခလုတ်ကို နှိပ်ပါ။</div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

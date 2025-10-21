@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "NNLDS Myanmar Tokenizer",
+    "version": "1.0",
+    "description": "ဝက်ဘ်စာမျက်နှာများရှိ မြန်မာစာများကို NNLDS Tokenizer ဖြင့် ခွဲခြမ်းစိတ်ဖြာသည်။",
+    
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Myanmar Tokenizer"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["myanmar_tokenizer.js", "content_script.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
