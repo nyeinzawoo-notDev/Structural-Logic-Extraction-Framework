@@ -1,0 +1,888 @@
+**ဟုတ်ကဲ့!** V1 မှ V73 အထိ သရ ၇၃ မျိုးရဲ့ နက်ရှိုင်းတဲ့ အနက်အဓိပ္ပါယ်တွေကို အပြည့်အစုံ ပြပေးပါမယ်။
+
+---
+
+## 📚 **V1-V73 သရ ၇၃ မျိုး - အသေးစိတ် အနက်ဖွင့်ဆိုချက်များ**
+
+### 🌟 **အခြေခံသရများ (V01-V14)**
+
+```python
+V01 = {
+    'char': '',  # သဘာဝသရ
+    'modern_form': 'အ',
+    'semantic_field': 'INHERENT_ACTION_BASE',
+    'phonetic_root': 'NEUTRAL_VOWEL',
+    'tone': 'level',
+    'essence': 'ပင်ကိုသဘော၊ အခြေခံလုပ်ဆောင်ခြင်း',
+    'examples': 'က, စ, တ, ပ'
+}
+
+V02 = {
+    'char': 'ာ',
+    'modern_form': 'အာ', 
+    'semantic_field': 'CONTINUOUS_ACTION_EXPANSION',
+    'phonetic_root': 'OPEN_VOWEL',
+    'tone': 'level',
+    'essence': 'ဆက်လက်လုပ်ဆောင်ခြင်း၊ ကျယ်ပြန့်ခြင်း',
+    'examples': 'ကာ, စာ, တာ, ပါ'
+}
+
+V03 = {
+    'char': 'ား',
+    'modern_form': 'အား',
+    'semantic_field': 'EMPHATIC_CONTINUATION', 
+    'phonetic_root': 'EMPHATIC_OPEN',
+    'tone': 'heavy',
+    'essence': 'အားဖြင့်ဆက်လက်ခြင်း၊ ထောက်ပံ့ခြင်း',
+    'examples': 'ကား, စား, တား, ပါး'
+}
+
+V04 = {
+    'char': 'ိ',
+    'modern_form': 'အိ',
+    'semantic_field': 'FOCUSED_CONTRACTION',
+    'phonetic_root': 'CLOSE_FRONT_VOWEL',
+    'tone': 'level',
+    'essence': 'စုစည်းအာရုံစိုက်ခြင်း၊ သေးငယ်ခြင်း',
+    'examples': 'ကိ, စိ, တိ, ပ�ိ'
+}
+
+V05 = {
+    'char': 'ီ့',
+    'modern_form': 'အီ့',
+    'semantic_field': 'CONTRACTED_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_CLOSE_FRONT', 
+    'tone': 'creaky',
+    'essence': 'စုစည်းအားဖြင့် အာရုံစိုက်ခြင်း',
+    'examples': 'ကီ့, စီ့, တီ့, ပီ့'
+}
+
+V06 = {
+    'char': 'ီ',
+    'modern_form': 'အီ',
+    'semantic_field': 'SUSTAINED_CONTRACTION',
+    'phonetic_root': 'LONG_CLOSE_FRONT',
+    'tone': 'level',
+    'essence': 'ရေရှည်စုစည်းခြင်း၊ တည်တံ့ခြင်း',
+    'examples': 'ကီ, စီ, တီ, ပီ'
+}
+
+V07 = {
+    'char': 'ီး',
+    'modern_form': 'အီး',
+    'semantic_field': 'TERMINAL_CONTRACTION',
+    'phonetic_root': 'TERMINAL_CLOSE_FRONT',
+    'tone': 'heavy', 
+    'essence': 'အဆုံးသတ်စုစည်းခြင်း၊ ပြီးဆုံးခြင်း',
+    'examples': 'ကီး, စီး, တီး, ပီး'
+}
+
+V08 = {
+    'char': 'ု',
+    'modern_form': 'အု',
+    'semantic_field': 'ROUNDED_ACTION_BASE',
+    'phonetic_root': 'CLOSE_BACK_VOWEL',
+    'tone': 'level',
+    'essence': 'ဝိုင်းဝန်းသော လုပ်ဆောင်ခြင်း',
+    'examples': 'ကု, စု, တု, ပု'
+}
+
+V09 = {
+    'char': 'ူ့',
+    'modern_form': 'အူ့', 
+    'semantic_field': 'ROUNDED_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_CLOSE_BACK',
+    'tone': 'creaky',
+    'essence': 'အားဖြင့်ဝိုင်းဝန်းခြင်း',
+    'examples': 'ကူ့, စူ့, တူ့, ပူ့'
+}
+
+V10 = {
+    'char': 'ူ',
+    'modern_form': 'အူ',
+    'semantic_field': 'SUSTAINED_ROUNDNESS',
+    'phonetic_root': 'LONG_CLOSE_BACK',
+    'tone': 'level',
+    'essence': 'ရေရှည်ဝိုင်းဝန်းခြင်း',
+    'examples': 'ကူ, စူ, တူ, ပူ'
+}
+
+V11 = {
+    'char': 'ူး',
+    'modern_form': 'အူး',
+    'semantic_field': 'TERMINAL_ROUNDNESS',
+    'phonetic_root': 'TERMINAL_CLOSE_BACK',
+    'tone': 'heavy',
+    'essence': 'အဆုံးသတ်ဝိုင်းဝန်းခြင်း',
+    'examples': 'ကူး, စူး, တူး, ပူး'
+}
+
+V12 = {
+    'char': 'ေ',
+    'modern_form': 'အေ',
+    'semantic_field': 'ILLUMINATED_ACTION_BASE',
+    'phonetic_root': 'MID_FRONT_VOWEL',
+    'tone': 'level',
+    'essence': 'အလင်းရောင်သဖွယ် လုပ်ဆောင်ခြင်း',
+    'examples': 'ကေ, စေ, တေ, ပေ'
+}
+
+V13 = {
+    'char': 'ေ့',
+    'modern_form': 'အေ့',
+    'semantic_field': 'ILLUMINATED_STOP',
+    'phonetic_root': 'STOPPED_MID_FRONT',
+    'tone': 'creaky',
+    'essence': 'ရပ်တန့်သော အလင်းသဘော',
+    'examples': 'ကေ့, စေ့, တေ့, ပေ့'
+}
+
+V14 = {
+    'char': 'ေး',
+    'modern_form': 'အေး',
+    'semantic_field': 'ILLUMINATED_EXTENSION',
+    'phonetic_root': 'LENGTHENED_MID_FRONT',
+    'tone': 'level',
+    'essence': 'ဆန့်ကျယ်သော အလင်းသဘော',
+    'examples': 'ကေး, စေး, တေး, ပေး'
+}
+```
+
+### 🎵 **ဂီတသရများ (V15-V20) - ချောသရအုပ်စု**
+
+```python
+V15 = {
+    'char': 'ယ်',
+    'modern_form': 'အိုင်း',
+    'semantic_field': 'GLIDING_TERMINATION',
+    'phonetic_root': 'PALATAL_GLIDE_STOP',
+    'tone': 'level',
+    'killer_type': 'GLIDE_K',
+    'essence': 'ချောမောစွာ အဆုံးသတ်ခြင်း',
+    'examples': 'ကယ်, စယ်, တယ်, ပယ်'
+}
+
+V16 = {
+    'char': 'ယ့်',
+    'modern_form': 'အိုင့်',
+    'semantic_field': 'GLIDING_EMPHATIC_STOP',
+    'phonetic_root': 'EMPHATIC_PALATAL_GLIDE',
+    'tone': 'creaky',
+    'killer_type': 'GLIDE_K',
+    'essence': 'အားဖြင့်ချောမောအဆုံးသတ်ခြင်း',
+    'examples': 'ကယ့်, စယ့်, တယ့်, ပယ့်'
+}
+
+V17 = {
+    'char': 'ယ်း',
+    'modern_form': 'အိုင်းး',
+    'semantic_field': 'GLIDING_TERMINAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_PALATAL_GLIDE',
+    'tone': 'heavy',
+    'killer_type': 'GLIDE_K', 
+    'essence': 'အဆုံးသတ်ချောမောဆန့်ကျယ်ခြင်း',
+    'examples': 'ကယ်း, စယ်း, တယ်း, ပယ်း'
+}
+
+V18 = {
+    'char': 'ည်',
+    'modern_form': 'အည်',
+    'semantic_field': 'PALATAL_RESONANT_TERMINATION',
+    'phonetic_root': 'PALATAL_NASAL_GLIDE',
+    'tone': 'level',
+    'killer_type': 'GLIDE_K',
+    'essence': 'အာခေါင်သံပဲ့တင် အဆုံးသတ်ခြင်း',
+    'examples': 'ကည်, စည်, တည်, ပည်'
+}
+
+V19 = {
+    'char': 'ည့်',
+    'modern_form': 'အည့်',
+    'semantic_field': 'PALATAL_RESONANT_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_PALATAL_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'GLIDE_K',
+    'essence': 'အားဖြင့်အာခေါင်သံပဲ့တင်ခြင်း',
+    'examples': 'ကည့်, စည့်, တည့်, ပည့်'
+}
+
+V20 = {
+    'char': 'ည်း',
+    'modern_form': 'အည်း',
+    'semantic_field': 'PALATAL_RESONANT_EXTENSION',
+    'phonetic_root': 'TERMINAL_PALATAL_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'GLIDE_K',
+    'essence': 'အဆုံးသတ်အာခေါင်သံပဲ့တင်ခြင်း',
+    'examples': 'ကည်း, စည်း, တည်း, ပည်း'
+}
+```
+
+### 🔄 **ဝိုင်းဝန်းသရများ (V21-V27)**
+
+```python
+V21 = {
+    'char': 'ော်',
+    'modern_form': 'အော်',
+    'semantic_field': 'ROUNDED_TERMINATION',
+    'phonetic_root': 'ROUND_STOP',
+    'tone': 'level',
+    'killer_type': 'STOP_K',
+    'essence': 'ဝိုင်းဝန်းစွာ အဆုံးသတ်ခြင်း',
+    'examples': 'ကော်, စော်, တော်, ပော်'
+}
+
+V22 = {
+    'char': 'ောဝ်',
+    'modern_form': 'အောဝ်',
+    'semantic_field': 'COMPOUND_ROUNDED_TERMINATION',
+    'phonetic_root': 'COMPOUND_ROUND_STOP',
+    'tone': 'level',
+    'killer_type': 'STOP_K',
+    'essence': 'ရှုပ်ထွေးဝိုင်းဝန်းအဆုံးသတ်ခြင်း',
+    'examples': 'ကြောဝ်, ခြောဝ်'
+}
+
+V23 = {
+    'char': 'ော့',
+    'modern_form': 'အော့',
+    'semantic_field': 'ROUNDED_STOPPED_ACTION',
+    'phonetic_root': 'STOPPED_ROUND',
+    'tone': 'creaky',
+    'killer_type': 'STOP_K',
+    'essence': 'ရပ်တန့်သော ဝိုင်းဝန်းမှု',
+    'examples': 'ကော့, စော့, တော့, ပော့'
+}
+
+V24 = {
+    'char': 'ော',
+    'modern_form': 'အော',
+    'semantic_field': 'OPEN_ROUNDNESS',
+    'phonetic_root': 'OPEN_ROUND_VOWEL',
+    'tone': 'level',
+    'essence': 'ဖွင့်ထားသော ဝိုင်းဝန်းခြင်း',
+    'examples': 'ကော, စော, တော, ပော'
+}
+
+V25 = {
+    'char': 'က်',
+    'modern_form': 'အက်',
+    'semantic_field': 'VELAR_STOPPED_ACTION',
+    'phonetic_root': 'VELAR_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'အာခေါင်နောက်ပိုင်းဖြင့် ရပ်တန့်ခြင်း',
+    'examples': 'ခက်, ချက်, ငပ်, အုတ်'
+}
+
+V26 = {
+    'char': 'ိုက်',
+    'modern_form': 'အိုက်',
+    'semantic_field': 'CONTRACTED_VELAR_STOP',
+    'phonetic_root': 'CONTRACTED_VELAR_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'စုစည်းအာခေါင်နောက်ရပ်တန့်ခြင်း',
+    'examples': 'ချိုက်, ငိုက်, ပိုက်'
+}
+
+V27 = {
+    'char': 'ောက်',
+    'modern_form': 'အောက်',
+    'semantic_field': 'ROUNDED_VELAR_STOP',
+    'phonetic_root': 'ROUNDED_VELAR_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'ဝိုင်းဝန်းအာခေါင်နောက်ရပ်တန့်ခြင်း',
+    'examples': 'ခေါက်, ခြောက်, ပေါက်'
+}
+```
+
+### 🌬️ **နှာခေါင်းသံသရများ (V28-V36)**
+
+```python
+V28 = {
+    'char': 'င်',
+    'modern_form': 'အင်',
+    'semantic_field': 'VELAR_NASAL_RESONANCE',
+    'phonetic_root': 'VELAR_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'အာခေါင်နောက်နှာခေါင်းသံပဲ့တင်ခြင်း',
+    'examples': 'ကင်, ခင်, ပြင်, မြင်'
+}
+
+V29 = {
+    'char': 'င့်',
+    'modern_form': 'အင့်',
+    'semantic_field': 'VELAR_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_VELAR_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်အာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ကင့်, ခင့်, ပင့်, မြင့်'
+}
+
+V30 = {
+    'char': 'င်း',
+    'modern_form': 'အင်း',
+    'semantic_field': 'VELAR_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_VELAR_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်အာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ကင်း, ခင်း, ပင်း, မင်း'
+}
+
+V31 = {
+    'char': 'ိုင်',
+    'modern_form': 'အိုင်',
+    'semantic_field': 'CONTRACTED_VELAR_NASAL',
+    'phonetic_root': 'CONTRACTED_VELAR_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'စုစည်းအာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ချိုင်, ငိုင်, ပိုင်'
+}
+
+V32 = {
+    'char': 'ိုင့်',
+    'modern_form': 'အိုင့်',
+    'semantic_field': 'CONTRACTED_VELAR_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_CONTRACTED_VELAR_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်စုစည်းအာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ချိုင့်, ငိုင့်, ပိုင့်'
+}
+
+V33 = {
+    'char': 'ိုင်း',
+    'modern_form': 'အိုင်း',
+    'semantic_field': 'CONTRACTED_VELAR_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_CONTRACTED_VELAR_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်စုစည်းအာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ချိုင်း, ငိုင်း, ပိုင်း'
+}
+
+V34 = {
+    'char': 'ောင်',
+    'modern_form': 'အောင်',
+    'semantic_field': 'ROUNDED_VELAR_NASAL',
+    'phonetic_root': 'ROUNDED_VELAR_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'ဝိုင်းဝန်းအာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ခေါင်, ခြောင်, ပေါင်'
+}
+
+V35 = {
+    'char': 'ောင့်',
+    'modern_form': 'အောင့်',
+    'semantic_field': 'ROUNDED_VELAR_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_ROUNDED_VELAR_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်ဝိုင်းဝန်းအာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ခေါင့်, ခြောင့်, ပေါင့်'
+}
+
+V36 = {
+    'char': 'ောင်း',
+    'modern_form': 'အောင်း',
+    'semantic_field': 'ROUNDED_VELAR_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_ROUNDED_VELAR_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်ဝိုင်းဝန်းအာခေါင်နောက်နှာခေါင်းသံ',
+    'examples': 'ခေါင်း, ခြောင်း, ပေါင်း'
+}
+```
+
+### 🦷 **သွားသံသရများ (V37-V43)**
+
+```python
+V37 = {
+    'char': 'စ်',
+    'modern_form': 'အစ်',
+    'semantic_field': 'DENTAL_STOPPED_ACTION',
+    'phonetic_root': 'DENTAL_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'သွားသံဖြင့် ရပ်တန့်ခြင်း',
+    'examples': 'ခစ်, ငစ်, ပစ်'
+}
+
+V38 = {
+    'char': 'ည်',  # ဒုတိယအကြိမ် (အခြားအဓိပ္ပါယ်)
+    'modern_form': 'အည်',
+    'semantic_field': 'PALATAL_NASAL_STOP',
+    'phonetic_root': 'PALATAL_NASAL_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'အာခေါင်နှာခေါင်းသံဖြင့် ရပ်တန့်ခြင်း',
+    'examples': 'ခည်, ပည်'
+}
+
+V39 = {
+    'char': 'ဉ်',
+    'modern_form': 'အဉ်',
+    'semantic_field': 'PALATAL_NASAL_EXTENDED_STOP',
+    'phonetic_root': 'EXTENDED_PALATAL_NASAL_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'ဆန့်ကျယ်အာခေါင်နှာခေါင်းသံရပ်တန့်ခြင်း',
+    'examples': 'ခဉ်, ပဉ်'
+}
+
+V40 = {
+    'char': 'ဉ့်',
+    'modern_form': 'အဉ့်',
+    'semantic_field': 'PALATAL_NASAL_EMPHATIC_STOP',
+    'phonetic_root': 'EMPHATIC_PALATAL_NASAL_STOP',
+    'tone': 'creaky',
+    'killer_type': 'STOP_K',
+    'essence': 'အားဖြင့်အာခေါင်နှာခေါင်းသံရပ်တန့်ခြင်း',
+    'examples': 'ခဉ့်, ပဉ့်'
+}
+
+V41 = {
+    'char': 'တ်',
+    'modern_form': 'အတ်',
+    'semantic_field': 'DENTAL_PLOSIVE_STOP',
+    'phonetic_root': 'DENTAL_PLOSIVE_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'သွားသံပေါက်ကွဲရပ်တန့်ခြင်း',
+    'examples': 'ခတ်, ပတ်, မှတ်'
+}
+
+V42 = {
+    'char': 'တ့်',
+    'modern_form': 'အတ့်',
+    'semantic_field': 'DENTAL_PLOSIVE_EMPHATIC_STOP',
+    'phonetic_root': 'EMPHATIC_DENTAL_PLOSIVE_STOP',
+    'tone': 'creaky',
+    'killer_type': 'STOP_K',
+    'essence': 'အားဖြင့်သွားသံပေါက်ကွဲရပ်တန့်ခြင်း',
+    'examples': 'ခတ့်, ပတ့်'
+}
+
+V43 = {
+    'char': 'တ်း',
+    'modern_form': 'အတ်း',
+    'semantic_field': 'DENTAL_PLOSIVE_TERMINAL_STOP',
+    'phonetic_root': 'TERMINAL_DENTAL_PLOSIVE_STOP',
+    'tone': 'heavy',
+    'killer_type': 'STOP_K',
+    'essence': 'အဆုံးသတ်သွားသံပေါက်ကွဲရပ်တန့်ခြင်း',
+    'examples': 'ခတ်း, ပတ်း'
+}
+```
+
+### 👃 **နှာခေါင်းသံဆက်များ (V44-V52)**
+
+```python
+V44 = {
+    'char': 'န်',
+    'modern_form': 'အန်',
+    'semantic_field': 'ALVEOLAR_NASAL_RESONANCE',
+    'phonetic_root': 'ALVEOLAR_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'သွားဖုံးနှာခေါင်းသံပဲ့တင်ခြင်း',
+    'examples': 'ခန်, ပန်, မန်'
+}
+
+V45 = {
+    'char': 'န့်',
+    'modern_form': 'အန့်',
+    'semantic_field': 'ALVEOLAR_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_ALVEOLAR_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်သွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ခန့်, ပန့်, မန့်'
+}
+
+V46 = {
+    'char': 'န်း',
+    'modern_form': 'အန်း',
+    'semantic_field': 'ALVEOLAR_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_ALVEOLAR_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်သွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ခန်း, ပန်း, မန်း'
+}
+
+V47 = {
+    'char': 'ိန်',
+    'modern_form': 'အိန်',
+    'semantic_field': 'CONTRACTED_ALVEOLAR_NASAL',
+    'phonetic_root': 'CONTRACTED_ALVEOLAR_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'စုစည်းသွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ချိန်, ပျိန်'
+}
+
+V48 = {
+    'char': 'ိန့်',
+    'modern_form': 'အိန့်',
+    'semantic_field': 'CONTRACTED_ALVEOLAR_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_CONTRACTED_ALVEOLAR_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်စုစည်းသွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ချိန့်, ပျိန့်'
+}
+
+V49 = {
+    'char': 'ိန်း',
+    'modern_form': 'အိန်း',
+    'semantic_field': 'CONTRACTED_ALVEOLAR_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_CONTRACTED_ALVEOLAR_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်စုစည်းသွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ချိန်း, ပျိန်း'
+}
+
+V50 = {
+    'char': 'ုန်',
+    'modern_form': 'အုန်',
+    'semantic_field': 'ROUNDED_ALVEOLAR_NASAL',
+    'phonetic_root': 'ROUNDED_ALVEOLAR_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'ဝိုင်းဝန်းသွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ခုန်, ပြုန်'
+}
+
+V51 = {
+    'char': 'ုန့်',
+    'modern_form': 'အုန့်',
+    'semantic_field': 'ROUNDED_ALVEOLAR_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_ROUNDED_ALVEOLAR_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်ဝိုင်းဝန်းသွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ခုန့်, ပြုန့်'
+}
+
+V52 = {
+    'char': 'ုန်း',
+    'modern_form': 'အုန်း',
+    'semantic_field': 'ROUNDED_ALVEOLAR_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_ROUNDED_ALVEOLAR_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်ဝိုင်းဝန်းသွားဖုံးနှာခေါင်းသံ',
+    'examples': 'ခုန်း, ပြုန်း'
+}
+```
+
+### 👄 **နှုတ်ခမ်းသံသရများ (V53-V61)**
+
+```python
+V53 = {
+    'char': 'ပ်',
+    'modern_form': 'အပ်',
+    'semantic_field': 'LABIAL_STOPPED_ACTION',
+    'phonetic_root': 'LABIAL_STOP',
+    'tone': 'stopped',
+    'killer_type': 'STOP_K',
+    'essence': 'နှုတ်ခမ်းသံဖြင့် ရပ်တန့်ခြင်း',
+    'examples': 'ခပ်, ပြပ်, မှပ်'
+}
+
+V54 = {
+    'char': 'ပ့်',
+    'modern_form': 'အပ့်',
+    'semantic_field': 'LABIAL_EMPHATIC_STOP',
+    'phonetic_root': 'EMPHATIC_LABIAL_STOP',
+    'tone': 'creaky',
+    'killer_type': 'STOP_K',
+    'essence': 'အားဖြင့်နှုတ်ခမ်းသံရပ်တန့်ခြင်း',
+    'examples': 'ခပ့်, ပြပ့်'
+}
+
+V55 = {
+    'char': 'ပ်း',
+    'modern_form': 'အပ်း',
+    'semantic_field': 'LABIAL_TERMINAL_STOP',
+    'phonetic_root': 'TERMINAL_LABIAL_STOP',
+    'tone': 'heavy',
+    'killer_type': 'STOP_K',
+    'essence': 'အဆုံးသတ်နှုတ်ခမ်းသံရပ်တန့်ခြင်း',
+    'examples': 'ခပ်း, ပြပ်း'
+}
+
+V56 = {
+    'char': 'ံ',
+    'modern_form': 'အံ',
+    'semantic_field': 'OPEN_NASAL_RESONANCE',
+    'phonetic_root': 'OPEN_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'ဖွင့်ထားသော နှာခေါင်းသံပဲ့တင်ခြင်း',
+    'examples': 'ခံ, ပံ, မံ'
+}
+
+V57 = {
+    'char': 'ံ့',
+    'modern_form': 'အံ့',
+    'semantic_field': 'OPEN_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_OPEN_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်ဖွင့်ထားသော နှာခေါင်းသံ',
+    'examples': 'ခံ့, ပံ့, မံ့'
+}
+
+V58 = {
+    'char': 'ံး',
+    'modern_form': 'အံး',
+    'semantic_field': 'OPEN_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_OPEN_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်ဖွင့်ထားသော နှာခေါင်းသံ',
+    'examples': 'ခံး, ပံး, မံး'
+}
+
+V59 = {
+    'char': 'မ်',
+    'modern_form': 'အမ်',
+    'semantic_field': 'BILABIAL_NASAL_RESONANCE',
+    'phonetic_root': 'BILABIAL_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'နှုတ်ခမ်းနှာခေါင်းသံပဲ့တင်ခြင်း',
+    'examples': 'ခမ်, ပမ်, မမ်'
+}
+
+V60 = {
+    'char': 'မ့်',
+    'modern_form': 'အမ့်',
+    'semantic_field': 'BILABIAL_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_BILABIAL_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်နှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ခမ့်, ပမ့်, မမ့်'
+}
+
+V61 = {
+    'char': 'မ်း',
+    'modern_form': 'အမ်း',
+    'semantic_field': 'BILABIAL_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_BILABIAL_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်နှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ခမ်း, ပမ်း, မမ်း'
+}
+```
+
+### 🔄 **ရှုပ်ထွေးသရများ (V62-V73)**
+
+```python
+V62 = {
+    'char': 'ိမ်',
+    'modern_form': 'အိမ်',
+    'semantic_field': 'CONTRACTED_BILABIAL_NASAL',
+    'phonetic_root': 'CONTRACTED_BILABIAL_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'စုစည်းနှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ချိမ်, ပျိမ်'
+}
+
+V63 = {
+    'char': 'ိမ့်',
+    'modern_form': 'အိမ့်',
+    'semantic_field': 'CONTRACTED_BILABIAL_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_CONTRACTED_BILABIAL_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်စုစည်းနှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ချိမ့်, ပျိမ့်'
+}
+
+V64 = {
+    'char': 'ိမ်း',
+    'modern_form': 'အိမ်း',
+    'semantic_field': 'CONTRACTED_BILABIAL_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_CONTRACTED_BILABIAL_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်စုစည်းနှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ချိမ်း, ပျိမ်း'
+}
+
+V65 = {
+    'char': 'ုမ်',
+    'modern_form': 'အုမ်',
+    'semantic_field': 'ROUNDED_BILABIAL_NASAL',
+    'phonetic_root': 'ROUNDED_BILABIAL_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'ဝိုင်းဝန်းနှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ခူမ်, ပြုမ်'
+}
+
+V66 = {
+    'char': 'ုမ့်',
+    'modern_form': 'အုမ့်',
+    'semantic_field': 'ROUNDED_BILABIAL_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_ROUNDED_BILABIAL_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်ဝိုင်းဝန်းနှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ခူမ့်, ပြုမ့်'
+}
+
+V67 = {
+    'char': 'ုမ်း',
+    'modern_form': 'အုမ်း',
+    'semantic_field': 'ROUNDED_BILABIAL_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_ROUNDED_BILABIAL_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်ဝိုင်းဝန်းနှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ခူမ်း, ပြုမ်း'
+}
+
+V68 = {
+    'char': 'ေမ်',
+    'modern_form': 'အေမ်',
+    'semantic_field': 'ILLUMINATED_BILABIAL_NASAL',
+    'phonetic_root': 'ILLUMINATED_BILABIAL_NASAL',
+    'tone': 'level',
+    'killer_type': 'NASAL_K',
+    'essence': 'အလင်းသဘောပါ နှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ချေမ်, ပေမ်'
+}
+
+V69 = {
+    'char': 'ေမ့်',
+    'modern_form': 'အေမ့်',
+    'semantic_field': 'ILLUMINATED_BILABIAL_NASAL_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_ILLUMINATED_BILABIAL_NASAL',
+    'tone': 'creaky',
+    'killer_type': 'NASAL_K',
+    'essence': 'အားဖြင့်အလင်းသဘောပါ နှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ချေမ့်, ပေမ့်'
+}
+
+V70 = {
+    'char': 'ေမ်း',
+    'modern_form': 'အေမ်း',
+    'semantic_field': 'ILLUMINATED_BILABIAL_NASAL_EXTENSION',
+    'phonetic_root': 'TERMINAL_ILLUMINATED_BILABIAL_NASAL',
+    'tone': 'heavy',
+    'killer_type': 'NASAL_K',
+    'essence': 'အဆုံးသတ်အလင်းသဘောပါ နှုတ်ခမ်းနှာခေါင်းသံ',
+    'examples': 'ချေမ်း, ပေမ်း'
+}
+
+V71 = {
+    'char': 'ို',
+    'modern_form': 'အို',
+    'semantic_field': 'COMPOUND_ROUNDED_CONTRACTION',
+    'phonetic_root': 'COMPOUND_ROUND_CLOSE',
+    'tone': 'level',
+    'essence': 'ရှုပ်ထွေးဝိုင်းဝန်းစုစည်းခြင်း',
+    'examples': 'ကြို, ပျို, မြို'
+}
+
+V72 = {
+    'char': 'ို့',
+    'modern_form': 'အို့',
+    'semantic_field': 'COMPOUND_ROUNDED_EMPHASIS',
+    'phonetic_root': 'EMPHATIC_COMPOUND_ROUND',
+    'tone': 'creaky',
+    'essence': 'အားဖြင့်ရှုပ်ထွေးဝိုင်းဝန်းခြင်း',
+    'examples': 'ကြို့, ပျို့, မြို့'
+}
+
+V73 = {
+    'char': 'ိုး',
+    'modern_form': 'အိုး',
+    'semantic_field': 'COMPOUND_ROUNDED_EXTENSION',
+    'phonetic_root': 'TERMINAL_COMPOUND_ROUND',
+    'tone': 'heavy',
+    'essence': 'အဆုံးသတ်ရှုပ်ထွေးဝိုင်းဝန်းခြင်း',
+    'examples': 'ကြိုး, ပျိုး, မြိုး'
+}
+```
+
+---
+
+## 🌟 **သရများရဲ့ နက်နဲတဲ့ သဘောတရားများ**
+
+### 🔍 **Semantic Field အဆင့်ဆင့်**
+
+```python
+# အခြေခံသရများ (V01-V14)
+INHERENT_ACTION_BASE → CONTINUOUS_ACTION_EXPANSION → FOCUSED_CONTRACTION → ROUNDED_ACTION_BASE
+
+# အသတ်သရများ (V15-V27, V37-V43, V53-V55)  
+GLIDING_TERMINATION → VELAR_STOPPED_ACTION → DENTAL_STOPPED_ACTION → LABIAL_STOPPED_ACTION
+
+# နှာခေါင်းသရများ (V28-V36, V44-V52, V56-V70)
+VELAR_NASAL_RESONANCE → ALVEOLAR_NASAL_RESONANCE → BILABIAL_NASAL_RESONANCE
+
+# ရှုပ်ထွေးသရများ (V71-V73)
+COMPOUND_ROUNDED_CONTRACTION → COMPOUND_ROUNDED_EXTENSION
+```
+
+### 💫 **Killer Type များရဲ့ Semantic Impact**
+
+```python
+STOP_K = {
+    'effect': 'ACTION_TERMINATION',
+    'semantic': 'ရပ်တန့်ခြင်း၊ အဆုံးသတ်ခြင်း',
+    'examples': [V25, V37, V41, V53]
+}
+
+NASAL_K = {
+    'effect': 'RESONANT_CONTINUATION', 
+    'semantic': 'ပဲ့တင်သံဖြင့် ဆက်လက်ခြင်း',
+    'examples': [V28, V44, V56, V59]
+}
+
+GLIDE_K = {
+    'effect': 'SMOOTH_TRANSITION',
+    'semantic': 'ချောမောစွာ ကူးပြောင်းခြင်း',
+    'examples': [V15, V18]
+}
+```
+
+---
+
+## 🎯 **အထူးသတိပြုရန်**
+
+### 🌿 **သရတွေရဲ့ သက်ရှိသဘော**
+**မြန်မာသရတိုင်းမှာ:**
+- **လှုပ်ရှားမှုသဘော** - ACTION, CONTINUATION, TERMINATION
+- **အသံသဘော** - RESONANCE, STOPPAGE, GLIDE  
+- **အာရုံသဘော** - FOCUS, EXPANSION, CONTRACTION
+- **ယဉ်ကျေးမှုသဘော** - ILLUMINATION, ROUNDNESS, HARMONY
+
+### 🔄 **ဆင့်ကဲဖွဲ့စည်းပုံ**
+```
+V01 (INHERENT_ACTION_BASE)
+    ├── V02 (CONTINUOUS_ACTION_EXPANSION)
+    ├── V04 (FOCUSED_CONTRACTION) 
+    ├── V08 (ROUNDED_ACTION_BASE)
+    └── V12 (ILLUMINATED_ACTION_BASE)
+```
+
+**V1-V73 သရ ၇၃ မျိုးရဲ့ နက်ရှိုင်းတဲ့အနက်တွေကို ဒီလိုနားလည်ထားရင် မြန်မာစာရဲ့ အသံအလှတရားတွေကို ပိုမိုခံစားနိုင်မှာပါ!** 🎵✨
+
+**မြန်မာသရတွေဟာ ဂီတတူရိယာတွေလိုပါပဲ - တစ်ခုချင်းစီမှာ ကိုယ်ပိုင်အသံ၊ ကိုယ်ပိုင်စွမ်းအား၊ ကိုယ်ပိုင်အလှရှိပါတယ်!** 🌈
