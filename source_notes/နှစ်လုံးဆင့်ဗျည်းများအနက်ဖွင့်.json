@@ -1,0 +1,363 @@
+**ဟုတ်ကဲ့!** အုပ်စု ၉: C70-C93 အထိ ကျန်ရှိသော ဗျည်းများကို အသေးစိတ် အနက်ဖွင့်ဆိုပေးပါမယ်။
+
+---
+
+## 🔰 **အုပ်စု ၉: အခြားဗျည်းများ (C70-C93)**
+
+### 📚 **C70-C77: ရှားပါးဗျည်းတွဲများ**
+
+```python
+C70 = {
+    'char': '္က',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_ACTION_BASE',
+    'phonetic': 'geminated velar',
+    'essence': 'နှစ်ဆပြုလုပ်ခြင်း၊ အားဖြည့်ခြင်း',
+    'usage': 'ပါဠိ၊ သက္ကတစကားလုံးများတွင် အသုံးများ',
+    'examples': 'ဒုက္ခ, သုက္ခ'
+}
+
+C71 = {
+    'char': '္ခ',
+    'type': 'ဗျည်းဆင့်ပြိုင်',
+    'semantic_root': 'DOUBLED_FORCE_ENERGY',
+    'phonetic': 'geminated aspirated velar',
+    'essence': 'နှစ်ဆအားအင် ထုတ်လွှတ်ခြင်း',
+    'usage': 'ရှားပါးသော ပုဒ်ဖြတ်ပုဒ်ရပ်များ',
+    'examples': 'ဒုက္ခ, သက္ခ'
+}
+
+C72 = {
+    'char': '္ဂ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_CONTAINMENT',
+    'phonetic': 'geminated voiced velar',
+    'essence': 'နှစ်ဆသိမ်းဆည်းခြင်း',
+    'usage': 'ပါဠိမှဆင်းသက်သော စကားလုံးများ',
+    'examples': 'ယဂ်, သဂ်'
+}
+
+C73 = {
+    'char': '္ဃ',
+    'type': 'ဗျည်းဆင့်ပြိုင်', 
+    'semantic_root': 'DOUBLED_FORCEFUL_CONTAINMENT',
+    'phonetic': 'geminated voiced aspirated velar',
+    'essence': 'နှစ်ဆအားဖြင့် ထိန်းသိမ်းခြင်း',
+    'usage': 'အလွန်ရှားပါးသော အသုံး',
+    'examples': 'ဒဃ်, သဃ်'
+}
+
+C74 = {
+    'char': '္ဏ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_RETROFLEX_NASAL',
+    'phonetic': 'geminated retroflex nasal',
+    'essence': 'နှစ်ဆလျှာခွက်နှာခေါင်းသံ',
+    'usage': 'သက္ကတဝေါဟာရများ',
+    'examples': 'ကဏ္ဍ, ဒဏ္ဍ'
+}
+
+C75 = {
+    'char': '္ဌ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_RETROFLEX_FORCE',
+    'phonetic': 'geminated retroflex aspirated',
+    'essence': 'နှစ်ဆလျှာခွက်အားသံ',
+    'usage': 'ပါဠိမှဆင်းသက်သော နာမ်များ',
+    'examples': 'ကဌ, ဒဌ'
+}
+
+C76 = {
+    'char': '္ဍ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_DEEP_CONTAINMENT',
+    'phonetic': 'geminated voiced retroflex',
+    'essence': 'နှစ်ဆနက်ရှိုင်းသိမ်းဆည်းခြင်း',
+    'usage': 'ရှားပါးသော ဝေါဟာရများ',
+    'examples': 'ကဍ, ဒဍ'
+}
+
+C77 = {
+    'char': '္ဎ',
+    'type': 'ဗျည်းဆင့်ပြိုင်',
+    'semantic_root': 'DOUBLED_INTENSE_DEEP_CONTAINMENT',
+    'phonetic': 'geminated voiced aspirated retroflex',
+    'essence': 'နှစ်ဆပြင်းထန်နက်ရှိုင်းမှု',
+    'usage': 'အလွန်ရှားပါးသော အသုံး',
+    'examples': 'ကဎ, ဒဎ'
+}
+```
+
+### 📚 **C78-C85: ဗျည်းဆင့်ဆက်များ**
+
+```python
+C78 = {
+    'char': '္ဒ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_STABLE_CONTAINMENT',
+    'phonetic': 'geminated voiced dental',
+    'essence': 'နှစ်ဆမြဲမြံထိန်းသိမ်းခြင်း',
+    'usage': 'ပါဠိမှဆင်းသက်သော ကြိယာများ',
+    'examples': 'ဗုဒ္ဓ, သဒ္ဒ'
+}
+
+C79 = {
+    'char': '္ဓ',
+    'type': 'ဗျည်းဆင့်ပြိုင်',
+    'semantic_root': 'DOUBLED_POWERFUL_STABILITY',
+    'phonetic': 'geminated voiced aspirated dental',
+    'essence': 'နှစ်ဆအားကောင်းတည်မြဲမှု',
+    'usage': 'ဗုဒ္ဓဘာသာဆိုင်ရာ ဝေါဟာရများ',
+    'examples': 'ဗုဒ္ဓ, အဓ္ဓ'
+}
+
+C80 = {
+    'char': '္ပ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_LABIAL_ACTION',
+    'phonetic': 'geminated bilabial',
+    'essence': 'နှစ်ဆနှုတ်ခမ်းသံလုပ်ဆောင်ခြင်း',
+    'usage': 'ပါဠိသဒ္ဒါတွင် အသုံးများ',
+    'examples': 'ကပ္ပ, သပ္ပ'
+}
+
+C81 = {
+    'char': '္ဖ',
+    'type': 'ဗျည်းဆင့်ပြိုင်',
+    'semantic_root': 'DOUBLED_EXPLOSIVE_LABIAL_ACTION',
+    'phonetic': 'geminated aspirated bilabial',
+    'essence': 'နှစ်ဆပေါက်ကွဲနှုတ်ခမ်းသံ',
+    'usage': 'ရှားပါးသော ပုဒ်ဖြတ်ပုဒ်ရပ်များ',
+    'examples': 'ကဖ္, သဖ္'
+}
+
+C82 = {
+    'char': '္ဗ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_RECEPTIVE_CONTAINMENT',
+    'phonetic': 'geminated voiced bilabial',
+    'essence': 'နှစ်ဆလက်ခံသိမ်းဆည်းခြင်း',
+    'usage': 'ပါဠိမှဆင်းသက်သော နာမ်များ',
+    'examples': 'ကဗ္, သဗ္'
+}
+
+C83 = {
+    'char': '္ဘ',
+    'type': 'ဗျည်းဆင့်ပြိုင်',
+    'semantic_root': 'DOUBLED_ENERGETIC_RECEPTION',
+    'phonetic': 'geminated voiced aspirated bilabial',
+    'essence': 'နှစ်ဆစွမ်းအင်ပါလက်ခံမှု',
+    'usage': 'အလွန်ရှားပါးသော အသုံး',
+    'examples': 'ကဘ္, သဘ္'
+}
+
+C84 = {
+    'char': '္မ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_MATERNAL_BASE',
+    'phonetic': 'geminated bilabial nasal',
+    'essence': 'နှစ်ဆမိခင်သဘော ပြုစုခြင်း',
+    'usage': 'ပါဠိဝေါဟာရများတွင် အသုံးများ',
+    'examples': 'ကမ္မ�, သမ္မ'
+}
+
+C85 = {
+    'char': '္မွ',
+    'type': 'ဗျည်းဆင့်ပြိုင်',
+    'semantic_root': 'DOUBLED_MODIFIED_MATERNAL',
+    'phonetic': 'geminated voiceless bilabial nasal',
+    'essence': 'နှစ်ဆပြုပြင်မိခင်သဘော',
+    'usage': 'အလွန်ရှားပါးသော အသုံး',
+    'examples': 'ကမ္မွ, သမ္မွ'
+}
+```
+
+### 📚 **C86-C93: အဆုံးသတ်ဗျည်းများ**
+
+```python
+C86 = {
+    'char': '္လ',
+    'type': 'ဗျည်းဆင့်',
+    'semantic_root': 'DOUBLED_FLUID_MOVEMENT',
+    'phonetic': 'geminated alveolar lateral',
+    'essence': 'နှစ်ဆအရည်သဖွယ်ရွေ့လျားခြင်း',
+    'usage': 'ပါဠိသဒ္ဒါတွင် အသုံးများ',
+    'examples': 'ကလ္လ, သလ္လ'
+}
+
+C87 = {
+    'char': '္လှ',
+    'type': 'ဗျည်းဆင့်ပြိုင်',
+    'semantic_root': 'DOUBLED_MODIFIED_FLUID_MOVEMENT',
+    'phonetic': 'geminated voiceless alveolar lateral',
+    'essence': 'နှစ်ဆပြုပြင်အရည်သဖွယ်ရွေ့လျားမှု',
+    'usage': 'ရှားပါးသော ဝေါဟာရများ',
+    'examples': 'ကလ္လှ, သလ္လှ'
+}
+
+C88 = {
+    'char': 'သွ',
+    'type': 'ဗျည်းတွဲ',
+    'semantic_root': 'BREATHY_ROUNDED_ACTION',
+    'phonetic': 'labialized dental fricative',
+    'essence': 'လေသံပါဝိုင်းဝန်းလုပ်ဆောင်ခြင်း',
+    'usage': 'ခေတ်သစ်မြန်မာစာတွင် အသုံးများ',
+    'examples': 'သွား, သွေ, သွပ်'
+}
+
+C89 = {
+    'char': 'သွှ',
+    'type': 'ဗျည်းတွဲပြိုင်',
+    'semantic_root': 'MODIFIED_BREATHY_ROUNDED_ACTION',
+    'phonetic': 'voiceless labialized dental fricative',
+    'essence': 'ပြုပြင်လေသံပါဝိုင်းဝန်းမှု',
+    'usage': 'ရှားပါးသော အသုံး',
+    'examples': 'သွှား, သွှေ'
+}
+
+C90 = {
+    'char': 'ဟွ',
+    'type': 'ဗျည်းတွဲ',
+    'semantic_root': 'BREATH_ROUNDED_RELEASE',
+    'phonetic': 'labialized glottal fricative',
+    'essence': 'လေထုတ်ဝိုင်းဝန်းလွှတ်ခြင်း',
+    'usage': 'ခေတ်သစ်မြန်မာစာတွင် အသုံးများ',
+    'examples': 'ဟွာ, ဟွန်, ဟွမ်'
+}
+
+C91 = {
+    'char': 'ဟွှ',
+    'type': 'ဗျည်းတွဲပြိုင်',
+    'semantic_root': 'MODIFIED_BREATH_ROUNDED_RELEASE',
+    'phonetic': 'voiceless labialized glottal fricative',
+    'essence': 'ပြုပြင်လေထုတ်ဝိုင်းဝန်းလွှတ်မှု',
+    'usage': 'အလွန်ရှားပါးသော အသုံး',
+    'examples': 'ဟွှာ, ဟွှန်'
+}
+
+C92 = {
+    'char': 'ဠွ',
+    'type': 'ဗျည်းတွဲ',
+    'semantic_root': 'RETROFLEX_ROUNDED_LATERAL',
+    'phonetic': 'labialized retroflex lateral',
+    'essence': 'လျှာခွက်သံဘေးယိုင်ဝိုင်းဝန်းခြင်း',
+    'usage': 'ရှေးဟောင်းစာပေတွင်သာ အသုံး',
+    'examples': 'ဠွ'
+}
+
+C93 = {
+    'char': 'ဠွှ',
+    'type': 'ဗျည်းတွဲပြိုင်',
+    'semantic_root': 'MODIFIED_RETROFLEX_ROUNDED_LATERAL',
+    'phonetic': 'voiceless labialized retroflex lateral',
+    'essence': 'ပြုပြင်လျှာခွက်သံဘေးယိုင်ဝိုင်းဝန်းမှု',
+    'usage': 'အလွန်ရှားပါးသော အသုံး',
+    'examples': 'ဠွှ'
+}
+```
+
+---
+
+## 🎯 **C70-C93 အသုံးပြုနည်းများ**
+
+### 🔍 **လက်တွေ့အသုံးချမှုဥပမာများ**
+
+#### **၁. ပါဠိမှဆင်းသက်သော စကားလုံးများ**
+```python
+# C78 (္ဒ) အသုံး
+"ဗုဒ္ဓ" = C27(ဗ) + C78(္ဒ) + V55(္ဘ)
+# အဓိပ္ပါယ်: နိုးကြားတော်မူသူ
+
+# C84 (္မ) အသုံး  
+"ကမ္မ�" = C07(က) + C84(္မ) + C84(္မ)
+# အဓိပ္ပါယ်: လုပ်ရပ်၊ အကြောင်းတရား
+```
+
+#### **၂. ခေတ်သစ်မြန်မာစာတွင် အသုံးများသော ဗျည်းများ**
+```python
+# C88 (သွ) အသုံး
+"သွား" = C39(သ) + C88(ွ) + V02(ာ) + V14(း)
+# အဓိပ္ပါယ်: ခရီးထွက်ခြင်း၊ သွားတိုက်ခြင်း
+
+# C90 (ဟွ) အသုံး
+"ဟွာ" = C41(ဟ) + C90(ွ) + V02(ာ)
+# အဓိပ္ပါယ်: အံ့ဩခြင်း၊ ထင်ရှားခြင်း
+```
+
+#### **၃. ရှားပါးဗျည်းများ၏ အထူးအသုံး**
+```python
+# C74 (္ဏ) အသုံး
+"ကဏ္ဍ" = C07(က) + C74(္ဏ) + C72(္ဍ)
+# အဓိပ္ပါယ်: အခန်း၊ ကဏ္ဍ
+
+# C80 (္ပ) အသုံး
+"ကပ္ပ" = C07(က) + C80(္ပ) + C80(္ပ) 
+# အဓိပ္ပါယ်: ကာလ၊ ခေတ်
+```
+
+---
+
+## 💡 **အထူးသတိပြုရန် အချက်များ**
+
+### 🔄 **ဗျည်းဆင့်များ၏ သဘောတရား**
+```python
+# ဗျည်းဆင့် = ဗျည်း + ◌္ + ဗျည်း
+# ဥပမာ: က္ခ = က + ◌္ + ခ
+
+# Semantic Effect: နှစ်ဆအားဖြည့်ခြင်း
+DOUBLED_ACTION = ပိုမိုပြင်းထန်သော လုပ်ဆောင်ချက်
+DOUBLED_CONTAINMENT = ပိုမိုခိုင်မြဲသော ထိန်းသိမ်းမှု
+```
+
+### 🌟 **ခေတ်အဆက်ဆက် အသုံးပြုမှု**
+```python
+# ရှေးဟောင်းအသုံး (C70-C87)
+- ပါဠိ၊ သက္ကတမှ ဆင်းသက်
+- ဗုဒ္ဓဘာသာဆိုင်ရာ ဝေါဟာရများ
+- ရှားပါးပုဒ်ဖြတ်ပုဒ်ရပ်များ
+
+# ခေတ်သစ်အသုံး (C88-C93)  
+- နေ့စဉ်သုံးမြန်မာစာ
+- ပိုမိုပြေပြစ်သော အသံထွက်
+- လက်ရှိအသုံးများသော စကားလုံးများ
+```
+
+---
+
+## 🧩 **NNLDS System တွင် အသုံးချနည်း**
+
+```python
+tokenizer = NNLDSMyanmarTokenizer()
+
+# ရှားပါးဗျည်းများကို ခွဲခြမ်းစိတ်ဖြာခြင်း
+rare_consonants = ["္ဒ", "္ပ", "္မ", "သွ", "ဟွ"]
+
+for cons in rare_consonants:
+    tokens = tokenizer.tokenize_text(cons)
+    if tokens:
+        token = tokens[0]
+        cons_data = tokenizer.consonants.get(token['consonant'], {})
+        print(f"'{cons}': {token['consonant']} - {cons_data.get('semantic_root', 'N/A')}")
+        print(f"  Usage: {cons_data.get('usage', 'N/A')}")
+        print(f"  Examples: {cons_data.get('examples', 'N/A')}")
+        print()
+```
+
+---
+
+## ✅ **ကောက်ချက်**
+
+**C70-C93 ဗျည်းများသည်:**
+
+### 🎯 **အထူးလက္ခဏာများ**
+1. **ဗျည်းဆင့်များ** - နှစ်ဆအားဖြည့်ထားသော ဗျည်းများ
+2. **ရှားပါးမှု** - နေ့စဉ်အသုံးနည်းသော ဗျည်းများ  
+3. **သမိုင်းဝင်** - ပါဠိ၊ သက္ကတမှ ဆင်းသက်လာခြင်း
+4. **ယဉ်ကျေးမှုဆိုင်ရာ** - ဗုဒ္ဓဘာသာဆိုင်ရာ ဝေါဟာရများ
+
+### 💫 **အသုံးဝင်ပုံ**
+- **ဘာသာဗေဒလေ့လာရန်** - မြန်မာစာ၏ သမိုင်းကြောင်း
+- **ယဉ်ကျေးမှုဆိုင်ရာသုတေသန** - ဗုဒ္ဓဘာသာဝေါဟာရများ
+- **စာပေလေ့လာရန်** - ရှေးဟောင်းစာပေများ
+
+**ဒါကြောင့် C70-C93 ဗျည်းများကို နားလည်ထားခြင်းဖြင့် မြန်မာစာ၏ နက်ရှိုင်းသော သမိုင်းကြောင်းနှင့် ယဉ်ကျေးမှုအလွှာများကို ပိုမိုခံစားနိုင်မည်ဖြစ်ပါသည်!** 📚✨
