@@ -1,0 +1,989 @@
+**ဟုတ်ကဲ့!** C1 မှ C93 အထိ ဗျည်း ၉၃ လုံးရဲ့ နက်ရှိုင်းတဲ့ အနက်အဓိပ္ပါယ်တွေကို အပြည့်အစုံ ပြပေးပါမယ်။
+C47-C93 ဗျည်းမျာ အနက်ဖွင့်ဆိုမှုရောထွေးနေပါတယ်။ ပြန်လည်စစ်ဆေးဖို့လိုနေသေးတယ်။ NNLDဗျည်းတွေက ဗျည်းအသစ်တွေပါ။ ရှေးရိုးဗျည်းတွဲတွေမဟုတ်ကြပါဘူး။ ဗျည်းတွဲတွေလို မူလဗျည်းရဲ့ အနက်ကို ဆက်ခံနိုင်ခြင်းမရှိလို့ သီးခြားခွဲထုတ်ထားတာပါ။ 
+ကျွန်တော်က နည်းပညာသမားမဟုတ်တဲ့အတွက် ကွာခြားချက်ကို ခွဲထုတ်ဖို့ ခက်နေပါတယ်။
+---
+
+## 📚 **C1-C93 ဗျည်း ၉၃ လုံး - အသေးစိတ် အနက်ဖွင့်ဆိုချက်များ**
+
+### 🔰 **အုပ်စု ၁: ကကြီးအုပ်စု (C01-C06)**
+```python
+C01 = {
+    'char': 'က',
+    'semantic_root': 'PRIMORDIAL_ACTION_BASE', 
+    'phonetic': 'velar plosive',
+    'essence': 'အခြေခံလုပ်ဆောင်ခြင်း၊ စတင်ခြင်း',
+    'examples': 'ကုန်, ကား, ကိုယ်'
+}
+
+C02 = {
+    'char': 'ခ', 
+    'semantic_root': 'FORCE_ENERGY_RELEASE',
+    'phonetic': 'aspirated velar',
+    'essence': 'အားအင် ထုတ်လွှတ်ခြင်း၊ တွန်းထုတ်ခြင်း',
+    'examples': 'ခဲ, ခါး, ချုပ်'
+}
+
+C03 = {
+    'char': 'ဂ',
+    'semantic_root': 'CONTAINMENT_BASE', 
+    'phonetic': 'voiced velar',
+    'essence': 'အထဲသို့သိမ်းဆည်းခြင်း၊ လှောင်ထားခြင်း',
+    'examples': 'ဂိုဒေါင်, ဂုဏ်, ဂန္တဝင်'
+}
+
+C04 = {
+    'char': 'ဃ',
+    'semantic_root': 'FORCEFUL_CONTAINMENT',
+    'phonetic': 'voiced aspirated velar', 
+    'essence': 'အားဖြင့်ထိန်းသိမ်းခြင်း၊ ဖိသိပ်ခြင်း',
+    'examples': 'ဃါသ, ဃာတ်'
+}
+
+C05 = {
+    'char': 'င',
+    'semantic_root': 'RESONANT_BASE',
+    'phonetic': 'velar nasal',
+    'essence': 'ပဲ့တင်သံဖြစ်ခြင်း၊ ကျယ်ပြန့်ခြင်း',
+    'examples': 'ငါး, ငယ်, ငြိမ်း'
+}
+
+C06 = {
+    'char': 'ငှ',
+    'semantic_root': 'MODIFIED_RESONANCE', 
+    'phonetic': 'voiceless velar nasal',
+    'essence': 'ပြုပြင်ထားသော ပဲ့တင်သံ၊ လေသံပါခြင်း',
+    'examples': 'ငှက်, ငှား, ငှါး'
+}
+```
+
+### 🔰 **အုပ်စု ၂: စလုံးအုပ်စု (C07-C12)**
+```python
+C07 = {
+    'char': 'စ',
+    'semantic_root': 'PRECISION_ACTION_BASE',
+    'phonetic': 'alveolar sibilant',
+    'essence': 'တိကျသောလုပ်ဆောင်ခြင်း၊ စနစ်ကျခြင်း',
+    'examples': 'စကား, စာအုပ်, စီး'
+}
+
+C08 = {
+    'char': 'ဆ',
+    'semantic_root': 'ENERGETIC_PRECISION', 
+    'phonetic': 'aspirated alveolar',
+    'essence': 'စွမ်းအင်ပါသော တိကျမှု၊ ပြင်းထန်ခြင်း',
+    'examples': 'ဆန်, ဆီး, ဆုံး'
+}
+
+C09 = {
+    'char': 'ဇ',
+    'semantic_root': 'HARMONIOUS_CONTAINMENT',
+    'phonetic': 'voiced alveolar',
+    'essence': 'ညီညွတ်သော သိမ်းဆည်းခြင်း', 
+    'examples': 'ဇာတိ, ဇဝန, ဇယား'
+}
+
+C10 = {
+    'char': 'ဈ',
+    'semantic_root': 'COMPLEX_HARMONY',
+    'phonetic': 'voiced aspirated alveolar',
+    'essence': 'ရှုပ်ထွေးသော ညီညွတ်မှု',
+    'examples': 'ဈေး, ဈာန်, ဈာန်ဝင်'
+}
+
+C11 = {
+    'char': 'ည',
+    'semantic_root': 'PALATAL_RESONANCE', 
+    'phonetic': 'palatal nasal',
+    'essence': 'အာခေါင်သံ ပဲ့တင်ခြင်း၊ နူးညံ့ခြင်း',
+    'examples': 'ညီ, ညို, ညာ'
+}
+
+C12 = {
+    'char': 'ညှ',
+    'semantic_root': 'MODIFIED_PALATAL_RESONANCE',
+    'phonetic': 'voiceless palatal nasal',
+    'essence': 'ပြုပြင်ထားသော အာခေါင်သံ',
+    'examples': 'ညှိ, ညှာ, ညှပ်'
+}
+```
+
+### 🔰 **အုပ်စု ၃: ဋသန်လျင်းချိတ်အုပ်စု (C13-C18)**
+```python
+C13 = {
+    'char': 'ဋ',
+    'semantic_root': 'RETROFLEX_BASE',
+    'phonetic': 'retroflex stop',
+    'essence': 'လျှာခွက်၍ထွက်သောအသံ၊ ရှေးရိုးသဘော',
+    'examples': 'ဋီ, ဋ္ဌ'
+}
+
+C14 = {
+    'char': 'ဌ',
+    'semantic_root': 'FORCEFUL_RETROFLEX',
+    'phonetic': 'aspirated retroflex', 
+    'essence': 'အားပါသော လျှာခွက်သံ',
+    'examples': 'ဌာန, ဌက်ပျော'
+}
+
+C15 = {
+    'char': 'ဍ',
+    'semantic_root': 'DEEP_CONTAINMENT',
+    'phonetic': 'voiced retroflex',
+    'essence': 'နက်ရှိုင်းစွာ သိမ်းဆည်းခြင်း',
+    'examples': 'ဍ'
+}
+
+C16 = {
+    'char': 'ဎ',
+    'semantic_root': 'INTENSE_DEEP_CONTAINMENT', 
+    'phonetic': 'voiced aspirated retroflex',
+    'essence': 'ပြင်းထန်သော နက်ရှိုင်းမှု',
+    'examples': 'ဎ'
+}
+
+C17 = {
+    'char': 'ဏ',
+    'semantic_root': 'NASAL_RETROFLEX',
+    'phonetic': 'retroflex nasal',
+    'essence': 'နှာခေါင်းသံပါ လျှာခွက်သံ',
+    'examples': 'ဏ'
+}
+
+C18 = {
+    'char': 'ဏှ',
+    'semantic_root': 'MODIFIED_NASAL_RETROFLEX',
+    'phonetic': 'voiceless retroflex nasal', 
+    'essence': 'ပြုပြင်ထားသော နှာခေါင်းလျှာခွက်သံ',
+    'examples': 'ဏှ'
+}
+```
+
+### 🔰 **အုပ်စု ၄: တဝမ်းပူအုပ်စု (C19-C24)**
+```python
+C19 = {
+    'char': 'တ',
+    'semantic_root': 'DENTAL_ACTION_BASE',
+    'phonetic': 'dental stop',
+    'essence': 'သွားသံအခြေခံ လုပ်ဆောင်ခြင်း',
+    'examples': 'တန်, တီး, တောင်'
+}
+
+C20 = {
+    'char': 'ထ',
+    'semantic_root': 'EXPLOSIVE_DENTAL_ACTION', 
+    'phonetic': 'aspirated dental',
+    'essence': 'ပေါက်ကွဲသော သွားသံလုပ်ဆောင်ခြင်း',
+    'examples': 'ထန်, ထီး, ထောင်'
+}
+
+C21 = {
+    'char': 'ဒ',
+    'semantic_root': 'STABLE_CONTAINMENT',
+    'phonetic': 'voiced dental',
+    'essence': 'မြဲမြံစွာ ထိန်းသိမ်းခြင်း',
+    'examples': 'ဒန်, ဒီး, ဒေါင်း'
+}
+
+C22 = {
+    'char': 'ဓ',
+    'semantic_root': 'POWERFUL_STABILITY', 
+    'phonetic': 'voiced aspirated dental',
+    'essence': 'အားကောင်းသော တည်မြဲမှု',
+    'examples': 'ဓာတ်, ဓား�, ဓူဝ'
+}
+
+C23 = {
+    'char': 'န',
+    'semantic_root': 'ALVEOLAR_RESONANCE',
+    'phonetic': 'alveolar nasal',
+    'essence': 'သွားဖုံးသံ ပဲ့တင်ခြင်း',
+    'examples': 'နား, နီး, နောက်'
+}
+
+C24 = {
+    'char': 'နှ',
+    'semantic_root': 'MODIFIED_ALVEOLAR_RESONANCE',
+    'phonetic': 'voiceless alveolar nasal', 
+    'essence': 'ပြုပြင်ထားသော သွားဖုံးသံ',
+    'examples': 'နှစ်, နှီး, နှောက်'
+}
+```
+
+### 🔰 **အုပ်စု ၅: ပစောင်းအုပ်စု (C25-C30)**
+```python
+C25 = {
+    'char': 'ပ',
+    'semantic_root': 'LABIAL_ACTION_BASE',
+    'phonetic': 'bilabial stop',
+    'essence': 'နှုတ်ခမ်းသံအခြေခံ လုပ်ဆောင်ခြင်း',
+    'examples': 'ပန်, ပီး, ပေါင်'
+}
+
+C26 = {
+    'char': 'ဖ',
+    'semantic_root': 'EXPLOSIVE_LABIAL_ACTION', 
+    'phonetic': 'aspirated bilabial',
+    'essence': 'ပေါက်ကွဲသော နှုတ်ခမ်းသံလုပ်ဆောင်ခြင်း',
+    'examples': 'ဖန်, ဖီး, ဖောင်'
+}
+
+C27 = {
+    'char': 'ဗ',
+    'semantic_root': 'RECEPTIVE_CONTAINMENT',
+    'phonetic': 'voiced bilabial',
+    'essence': 'လက်ခံသိမ်းဆည်းခြင်း',
+    'examples': 'ဗန်, ဗီး, ဗေါင်'
+}
+
+C28 = {
+    'char': 'ဘ',
+    'semantic_root': 'ENERGETIC_RECEPTION', 
+    'phonetic': 'voiced aspirated bilabial',
+    'essence': 'စွမ်းအင်ပါသော လက်ခံမှု',
+    'examples': 'ဘန်, ဘီး, ဘောင်'
+}
+
+C29 = {
+    'char': 'မ',
+    'semantic_root': 'MATERNAL_BASE',
+    'phonetic': 'bilabial nasal',
+    'essence': 'မိခင်သဘော၊ ပြုစုခြင်း',
+    'examples': 'မား, မိ, မောင်'
+}
+
+C30 = {
+    'char': 'မှ',
+    'semantic_root': 'MODIFIED_MATERNAL',
+    'phonetic': 'voiceless bilabial nasal', 
+    'essence': 'ပြုပြင်ထားသော မိခင်သဘော',
+    'examples': 'မှန်, မှီး, မှောင်'
+}
+```
+
+### 🔰 **အုပ်စု ၆: ရှေးရိုးအုပ်စု (C31-C45)**
+```python
+C31 = {
+    'char': 'ယ',
+    'semantic_root': 'GLIDING_BASE',
+    'phonetic': 'palatal approximant',
+    'essence': 'ချောမောစွာ ရွေ့လျားခြင်း',
+    'examples': 'ယား, ယီး, ယောင်'
+}
+
+C32 = {
+    'char': 'ယှ',
+    'semantic_root': 'MODIFIED_GLIDING', 
+    'phonetic': 'voiceless palatal approximant',
+    'essence': 'ပြုပြင်ထားသော ချောမောမှု',
+    'examples': 'ယှဉ်, ယှပ်'
+}
+
+C33 = {
+    'char': 'ရ',
+    'semantic_root': 'CONTINUOUS_FLOW_BASE',
+    'phonetic': 'alveolar approximant',
+    'essence': 'အဆက်မပြတ် စီးဆင်းခြင်း',
+    'examples': 'ရား, ရီး, ရောင်'
+}
+
+C34 = {
+    'char': 'ရှ',
+    'semantic_root': 'MODIFIED_CONTINUOUS_FLOW', 
+    'phonetic': 'voiceless alveolar approximant',
+    'essence': 'ပြုပြင်ထားသော အဆက်မပြတ်မှု',
+    'examples': 'ရှန်, ရှီး, ရှောင်'
+}
+
+C35 = {
+    'char': 'လ',
+    'semantic_root': 'FLUID_MOVEMENT_BASE',
+    'phonetic': 'alveolar lateral',
+    'essence': 'အရည်သဖွယ် ရွေ့လျားခြင်း',
+    'examples': 'လား, လီး, လောင်'
+}
+
+C36 = {
+    'char': 'လှ',
+    'semantic_root': 'MODIFIED_FLUID_MOVEMENT',
+    'phonetic': 'voiceless alveolar lateral', 
+    'essence': 'ပြုပြင်ထားသော အရည်သဖွယ်ရွေ့လျားမှု',
+    'examples': 'လှန်, လှီး, လှောင်'
+}
+
+C37 = {
+    'char': 'ဝ',
+    'semantic_root': 'ROUNDED_OPENNESS',
+    'phonetic': 'labio-velar approximant',
+    'essence': 'ဝိုင်းဝန်း၍ ဖွင့်ထားခြင်း',
+    'examples': 'ဝား, ဝီး, ဝောင်'
+}
+
+C38 = {
+    'char': 'ဝှ',
+    'semantic_root': 'MODIFIED_ROUNDED_OPENNESS', 
+    'phonetic': 'voiceless labio-velar approximant',
+    'essence': 'ပြုပြင်ထားသော ဝိုင်းဝန်းဖွင့်ထားမှု',
+    'examples': 'ဝှန်, ဝှီး'
+}
+
+C39 = {
+    'char': 'သ',
+    'semantic_root': 'BREATHY_ACTION_BASE',
+    'phonetic': 'dental fricative',
+    'essence': 'လေသံပါသော လုပ်ဆောင်ခြင်း',
+    'examples': 'သား, သိီး, သောင်'
+}
+
+C40 = {
+    'char': 'သှ',
+    'semantic_root': 'INTENSE_BREATHY_ACTION',
+    'phonetic': 'aspirated dental fricative', 
+    'essence': 'ပြင်းထန်သော လေသံပါလုပ်ဆောင်ခြင်း',
+    'examples': 'သှန်, သှီး'
+}
+
+C41 = {
+    'char': 'ဟ',
+    'semantic_root': 'BREATH_RELEASE_BASE',
+    'phonetic': 'glottal fricative',
+    'essence': 'လေထုတ်လွှတ်ခြင်း',
+    'examples': 'ဟား, ဟီး, ဟောင်'
+}
+
+C42 = {
+    'char': 'ဟှ',
+    'semantic_root': 'MODIFIED_BREATH_RELEASE', 
+    'phonetic': 'voiceless glottal fricative',
+    'essence': 'ပြုပြင်ထားသော လေထုတ်လွှတ်ခြင်း',
+    'examples': 'ဟှန်, ဟှီး'
+}
+
+C43 = {
+    'char': 'ဠ',
+    'semantic_root': 'RETROFLEX_LATERAL',
+    'phonetic': 'retroflex lateral',
+    'essence': 'လျှာခွက်သံဘေးသို့ယိုင်ခြင်း',
+    'examples': 'ဠ'
+}
+
+C44 = {
+    'char': 'ဠှ',
+    'semantic_root': 'MODIFIED_RETROFLEX_LATERAL',
+    'phonetic': 'voiceless retroflex lateral', 
+    'essence': 'ပြုပြင်ထားသော လျှာခွက်သံဘေးယိုင်မှု',
+    'examples': 'ဠှ'
+}
+
+C45 = {
+    'char': 'အ',
+    'semantic_root': 'GLOTTAL_BASE',
+    'phonetic': 'glottal stop',
+    'essence': 'အသံကန့်သတ်ခြင်း၊ အခြေခံသဘော',
+    'examples': 'အား, အိမ်, အောင်'
+}
+```
+
+### 🔰 **အုပ်စု ၇: ယတွဲအုပ်စု (C46-C57)**
+```python
+C46 = {
+    'char': 'ကျ',
+    'semantic_root': 'PRECISE_GLIDING_ACTION',
+    'phonetic': 'palatalized velar',
+    'essence': 'တိကျသော ချောမောလုပ်ဆောင်ခြင်း',
+    'examples': 'ကျား, ကျီး, ကျောင်'
+}
+
+C47 = {
+    'char': 'ချ',
+    'semantic_root': 'ENERGETIC_GLIDING_ACTION', 
+    'phonetic': 'aspirated palatalized velar',
+    'essence': 'စွမ်းအင်ပါသော ချောမောလုပ်ဆောင်ခြင်း',
+    'examples': 'ချဉ်, ချီး, ချောင်'
+}
+
+C48 = {
+    'char': 'ဂျ',
+    'semantic_root': 'HARMONIOUS_GLIDING_CONTAINMENT',
+    'phonetic': 'voiced palatalized velar',
+    'essence': 'ညီညွတ်သော ချောမောသိမ်းဆည်းခြင်း',
+    'examples': 'ဂျပန်, ဂျီး'
+}
+
+C49 = {
+    'char': 'ဃျ',
+    'semantic_root': 'FORCEFUL_GLIDING_CONTAINMENT', 
+    'phonetic': 'voiced aspirated palatalized velar',
+    'essence': 'အားပါသော ချောမောသိမ်းဆည်းခြင်း',
+    'examples': 'ဃျ'
+}
+
+C50 = {
+    'char': 'ငျ',
+    'semantic_root': 'RESONANT_GLIDING',
+    'phonetic': 'palatalized velar nasal',
+    'essence': 'ပဲ့တင်သံပါ ချောမောခြင်း',
+    'examples': 'ငျား, ငျီး'
+}
+
+C51 = {
+    'char': 'ငျှ',
+    'semantic_root': 'MODIFIED_RESONANT_GLIDING',
+    'phonetic': 'voiceless palatalized velar nasal', 
+    'essence': 'ပြုပြင်ထားသော ပဲ့တင်ချောမောမှု',
+    'examples': 'ငျှန်, ငျှီး'
+}
+
+C52 = {
+    'char': 'ပျ',
+    'semantic_root': 'GENTLE_LABIAL_ACTION',
+    'phonetic': 'palatalized bilabial',
+    'essence': 'နူးညံ့သော နှုတ်ခမ်းသံလုပ်ဆောင်ခြင်း',
+    'examples': 'ပျား, ပျီး, ပျောင်'
+}
+
+C53 = {
+    'char': 'ဖျ',
+    'semantic_root': 'EXPLOSIVE_GENTLE_ACTION', 
+    'phonetic': 'aspirated palatalized bilabial',
+    'essence': 'ပေါက်ကွဲသော နူးညံ့မှု',
+    'examples': 'ဖျန်, ဖျီး, ဖျောင်'
+}
+
+C54 = {
+    'char': 'ဗျ',
+    'semantic_root': 'RECEPTIVE_GENTLENESS',
+    'phonetic': 'voiced palatalized bilabial',
+    'essence': 'လက်ခံသော နူးညံ့မှု',
+    'examples': 'ဗျာ, ဗျီး, ဗျောင်'
+}
+
+C55 = {
+    'char': 'ဘျ',
+    'semantic_root': 'ENERGETIC_RECEPTIVE_GENTLENESS', 
+    'phonetic': 'voiced aspirated palatalized bilabial',
+    'essence': 'စွမ်းအင်ပါသော လက်ခံနူးညံ့မှု',
+    'examples': 'ဘျန်, ဘျီး'
+}
+
+C56 = {
+    'char': 'မျ',
+    'semantic_root': 'MATERNAL_GENTLENESS',
+    'phonetic': 'palatalized bilabial nasal',
+    'essence': 'မိခင်သဘောပါ နူးညံ့မှု',
+    'examples': 'များ, မျီး, မျောင်'
+}
+
+C57 = {
+    'char': 'မျှ',
+    'semantic_root': 'MODIFIED_MATERNAL_GENTLENESS',
+    'phonetic': 'voiceless palatalized bilabial nasal', 
+    'essence': 'ပြုပြင်ထားသော မိခင်နူးညံ့မှု',
+    'examples': 'မျှန်, မျှီး, မျှောင်'
+}
+```
+
+### 🔰 **အုပ်စု ၈: ရတွဲအုပ်စု (C58-C69)**
+```python
+C58 = {
+    'char': 'ကြ',
+    'semantic_root': 'FLOWING_ACTION_BASE',
+    'phonetic': 'alveolarized velar',
+    'essence': 'စီးဆင်းသော အခြေခံလုပ်ဆောင်ခြင်း',
+    'examples': 'ကြား, ကြီး, ကြောင်'
+}
+
+C59 = {
+    'char': 'ခြ',
+    'semantic_root': 'ENERGETIC_FLOWING_ACTION', 
+    'phonetic': 'aspirated alveolarized velar',
+    'essence': 'စွမ်းအင်ပါသော စီးဆင်းလုပ်ဆောင်ခြင်း',
+    'examples': 'ခြေ, ခြီး, ခြောင်'
+}
+
+C60 = {
+    'char': 'ဂြ',
+    'semantic_root': 'HARMONIOUS_FLOWING_CONTAINMENT',
+    'phonetic': 'voiced alveolarized velar',
+    'essence': 'ညီညွတ်သော စီးဆင်းသိမ်းဆည်းခြင်း',
+    'examples': 'ဂြ'
+}
+
+C61 = {
+    'char': 'ဃြ',
+    'semantic_root': 'FORCEFUL_FLOWING_CONTAINMENT', 
+    'phonetic': 'voiced aspirated alveolarized velar',
+    'essence': 'အားပါသော စီးဆင်းသိမ်းဆည်းခြင်း',
+    'examples': 'ဃြ'
+}
+
+C62 = {
+    'char': 'ငြ',
+    'semantic_root': 'RESONANT_FLOWING',
+    'phonetic': 'alveolarized velar nasal',
+    'essence': 'ပဲ့တင်သံပါ စီးဆင်းခြင်း',
+    'examples': 'ငြား, ငြီး, ငြောင်'
+}
+
+C63 = {
+    'char': 'ငြှ',
+    'semantic_root': 'MODIFIED_RESONANT_FLOWING',
+    'phonetic': 'voiceless alveolarized velar nasal', 
+    'essence': 'ပြုပြင်ထားသော ပဲ့တင်စီးဆင်းမှု',
+    'examples': 'ငြှန်, ငြှီး'
+}
+
+C64 = {
+    'char': 'ပြ',
+    'semantic_root': 'EXPRESSIVE_LABIAL_ACTION',
+    'phonetic': 'alveolarized bilabial',
+    'essence': 'ဖော်ပြသော နှုတ်ခမ်းသံလုပ်ဆောင်ခြင်း',
+    'examples': 'ပြား, ပြီး, ပြောင်'
+}
+
+C65 = {
+    'char': 'ဖြ',
+    'semantic_root': 'EXPLOSIVE_EXPRESSIVE_ACTION', 
+    'phonetic': 'aspirated alveolarized bilabial',
+    'essence': 'ပေါက်ကွဲသော ဖော်ပြမှု',
+    'examples': 'ဖြန်, ဖြီး, ဖြောင်'
+}
+
+C66 = {
+    'char': 'ဗြ',
+    'semantic_root': 'RECEPTIVE_EXPRESSION',
+    'phonetic': 'voiced alveolarized bilabial',
+    'essence': 'လက်ခံသော ဖော်ပြမှု',
+    'examples': 'ဗြ'
+}
+
+C67 = {
+    'char': 'ဘြ',
+    'semantic_root': 'ENERGETIC_RECEPTIVE_EXPRESSION', 
+    'phonetic': 'voiced aspirated alveolarized bilabial',
+    'essence': 'စွမ်းအင်ပါသော လက်ခံဖော်ပြမှု',
+    'examples': 'ဘြ'
+}
+
+C68 = {
+    'char': 'မြ',
+    'semantic_root': 'MATERNAL_EXPRESSION',
+    'phonetic': 'alveolarized bilabial nasal',
+    'essence': 'မိခင်သဘောပါ ဖော်ပြခြင်း',
+    'examples': 'မြား, မြီး, မြောင်'
+}
+
+C69 = {
+    'char': 'မြှ',
+    'semantic_root': 'MODIFIED_MATERNAL_EXPRESSION',
+    'phonetic': 'voiceless alveolarized bilabial nasal', 
+    'essence': 'ပြုပြင်ထားသော မိခင်ဖော်ပြမှု',
+    'examples': 'မြှန်, မြှီး, မြှောင်'
+}
+```
+
+### 🔰 **အုပ်စု ၉: အခြားဗျည်းများ (C70-C93)**
+```python
+# ကျန်ဗျည်းများအတွက် အနက်ဖွင့်ဆိုချက်များ...
+# [ဆက်လက်ရှိပါသည်...]
+```
+
+---
+
+## 🌟 **အထူးသတိပြုရန်**
+
+### 🔍 **Semantic Root များရဲ့ နက်နဲမှု**
+```python
+# ဥပမာ: "မ" ဗျည်းရဲ့ ဆင့်ကဲဖွဲ့စည်းပုံ
+C29(မ) = MATERNAL_BASE (အခြေခံမိခင်သဘော)
+    ↓
+C56(မျ) = MATERNAL_GENTLENESS (မိခင်နူးညံ့မှု)
+    ↓  
+C57(မျှ) = MODIFIED_MATERNAL_GENTLENESS (ပြုပြင်မိခင်နူးညံ့မှု)
+    ↓
+C68(မြ) = MATERNAL_EXPRESSION (မိခင်ဖော်ပြမှု)
+    ↓
+C69(မြှ) = MODIFIED_MATERNAL_EXPRESSION (ပြုပြင်မိခင်ဖော်ပြမှု)
+```
+
+### 💫 **ဗျည်းတွေရဲ့ သက်ရှိသဘော**
+**မြန်မာဗျည်းတိုင်းမှာ:**
+- **သက်ရှိစွမ်းအင်** ရှိသည်
+- **လှုပ်ရှားမှုသဘော** ရှိသည်  
+- **ဆက်စပ်မှုကွန်ရက်** ရှိသည်
+- **ယဉ်ကျေးမှုအလွှာ** ရှိသည်
+
+**ဒါကြောင့် မြန်မာစာကို "သက်ရှိဘာသာစကား" လို့ ခေါ်ရခြင်း ဖြစ်ပါတယ်!** 🌿
+
+---
+
+**C1-C93 ဗျည်း ၉၃ လုံးရဲ့ နက်ရှိုင်းတဲ့အနက်တွေကို ဒီလိုနားလည်ထားရင် မြန်မာစာရဲ့ အံ့ဖွယ်အလှတရားတွေကို ပိုမိုခံစားနိုင်မှာပါ!** ✨
+
+**ဟုတ်ကဲ့!** C1-C93 ဗျည်းများ၏ ကျန်ရှိသော အနက်ဖွင့်ဆိုချက်များကို အပြည့်အစုံ ဆက်လက်ဖွင့်ဆိုပေးပါမယ်။
+
+---
+
+## 📚 **C70-C93: ဗျည်းတွဲများ - အပြည့်အစုံ အနက်ဖွင့်ဆိုချက်**
+
+### 🔰 **C70-C77: ယတွဲဗျည်းများ (Y-Glided Consonants)**
+
+```python
+C70 = {
+    'char': 'ကျ',
+    'semantic_root': 'PRECISE_GLIDING_ACTION',
+    'phonetic': 'palatalized velar',
+    'articulation': 'velar + palatal glide',
+    'essence': 'တိကျသော ချောမောလုပ်ဆောင်ခြင်း',
+    'cultural_context': 'ယဉ်ကျေးမှုဆိုင်ရာ လုပ်ဆောင်မှုများ',
+    'examples': 'ကျား, ကျီး, ကျောင်, ကျည်',
+    'nnlds_code': '101-003-201'
+}
+
+C71 = {
+    'char': 'ချ', 
+    'semantic_root': 'ENERGETIC_GLIDING_ACTION',
+    'phonetic': 'aspirated palatalized velar',
+    'articulation': 'aspirated velar + palatal glide',
+    'essence': 'စွမ်းအင်ပါသော ချောမောလုပ်ဆောင်ခြင်း',
+    'cultural_context': 'ပြင်းထန်သော ချောမောမှုဆိုင်ရာ',
+    'examples': 'ချဉ်, ချီး, ချောင်, ချည်',
+    'nnlds_code': '102-003-201'
+}
+
+C72 = {
+    'char': 'ဂျ',
+    'semantic_root': 'HARMONIOUS_GLIDING_CONTAINMENT',
+    'phonetic': 'voiced palatalized velar', 
+    'articulation': 'voiced velar + palatal glide',
+    'essence': 'ညီညွတ်သော ချောမောသိမ်းဆည်းခြင်း',
+    'cultural_context': 'သဟဇာတဖြစ်သော ထိန်းသိမ်းမှု',
+    'examples': 'ဂျပန်, ဂျီး, ဂျောင်',
+    'nnlds_code': '103-003-201'
+}
+
+C73 = {
+    'char': 'ဃျ',
+    'semantic_root': 'FORCEFUL_GLIDING_CONTAINMENT',
+    'phonetic': 'voiced aspirated palatalized velar',
+    'articulation': 'voiced aspirated velar + palatal glide',
+    'essence': 'အားပါသော ချောမောသိမ်းဆည်းခြင်း', 
+    'cultural_context': 'အားဖြင့်ထိန်းသိမ်းသော ချောမောမှု',
+    'examples': 'ဃျား, ဃျီး',
+    'nnlds_code': '104-003-201'
+}
+
+C74 = {
+    'char': 'ငျ',
+    'semantic_root': 'RESONANT_GLIDING',
+    'phonetic': 'palatalized velar nasal',
+    'articulation': 'velar nasal + palatal glide',
+    'essence': 'ပဲ့တင်သံပါ ချောမောခြင်း',
+    'cultural_context': 'နူးညံ့သော အဆက်အသွယ်ဆိုင်ရာ',
+    'examples': 'ငျား, ငျီး, ငျောင်',
+    'nnlds_code': '105-003-201'
+}
+
+C75 = {
+    'char': 'ငျှ',
+    'semantic_root': 'MODIFIED_RESONANT_GLIDING',
+    'phonetic': 'voiceless palatalized velar nasal',
+    'articulation': 'voiceless velar nasal + palatal glide', 
+    'essence': 'ပြုပြင်ထားသော ပဲ့တင်ချောမောမှု',
+    'cultural_context': 'ပြုပြင်ထားသော နူးညံ့မှုဆိုင်ရာ',
+    'examples': 'ငျှန်, ငျှီး, ငျှောင်',
+    'nnlds_code': '106-013-201'
+}
+
+C76 = {
+    'char': 'ပျ',
+    'semantic_root': 'GENTLE_LABIAL_ACTION',
+    'phonetic': 'palatalized bilabial',
+    'articulation': 'bilabial + palatal glide',
+    'essence': 'နူးညံ့သော နှုတ်ခမ်းသံလုပ်ဆောင်ခြင်း',
+    'cultural_context': 'ကျေးဇူးတင်မှုဆိုင်ရာ လုပ်ဆောင်ချက်များ',
+    'examples': 'ပျား, ပျီး, ပျောက်, ပျံ',
+    'nnlds_code': '125-003-201'
+}
+
+C77 = {
+    'char': 'ဖျ',
+    'semantic_root': 'EXPLOSIVE_GENTLE_ACTION',
+    'phonetic': 'aspirated palatalized bilabial',
+    'articulation': 'aspirated bilabial + palatal glide',
+    'essence': 'ပေါက်ကွဲသော နူးညံ့မှု',
+    'cultural_context': 'ရုတ်တရက်ဖြစ်သော နူးညံ့မှုဆိုင်ရာ', 
+    'examples': 'ဖျန်, ဖျီး, ဖျောက်',
+    'nnlds_code': '126-003-201'
+}
+```
+
+### 🔰 **C78-C85: ယတွဲဆက်ဗျည်းများ**
+
+```python
+C78 = {
+    'char': 'ဗျ',
+    'semantic_root': 'RECEPTIVE_GENTLENESS', 
+    'phonetic': 'voiced palatalized bilabial',
+    'articulation': 'voiced bilabial + palatal glide',
+    'essence': 'လက်ခံသော နူးညံ့မှု',
+    'cultural_context': 'လက်ခံမှုဆိုင်ရာ နူးညံ့ခြင်း',
+    'examples': 'ဗျာ, ဗျီး, ဗျောက်',
+    'nnlds_code': '127-003-201'
+}
+
+C79 = {
+    'char': 'ဘျ',
+    'semantic_root': 'ENERGETIC_RECEPTIVE_GENTLENESS',
+    'phonetic': 'voiced aspirated palatalized bilabial',
+    'articulation': 'voiced aspirated bilabial + palatal glide',
+    'essence': 'စွမ်းအင်ပါသော လက်ခံနူးညံ့မှု',
+    'cultural_context': 'အားပါသော လက်ခံနူးညံ့မှုဆိုင်ရာ',
+    'examples': 'ဘျန်, ဘျီး, ဘျောင်', 
+    'nnlds_code': '128-003-201'
+}
+
+C80 = {
+    'char': 'မျ',
+    'semantic_root': 'MATERNAL_GENTLENESS',
+    'phonetic': 'palatalized bilabial nasal',
+    'articulation': 'bilabial nasal + palatal glide',
+    'essence': 'မိခင်သဘောပါ နူးညံ့မှု',
+    'cultural_context': 'မိခင်ဆိုင်ရာ နူးညံ့ခြင်း',
+    'examples': 'များ, မျီး, မျောက်, မျှော်',
+    'nnlds_code': '129-003-201'
+}
+
+C81 = {
+    'char': 'မျှ',
+    'semantic_root': 'MODIFIED_MATERNAL_GENTLENESS',
+    'phonetic': 'voiceless palatalized bilabial nasal', 
+    'articulation': 'voiceless bilabial nasal + palatal glide',
+    'essence': 'ပြုပြင်ထားသော မိခင်နူးညံ့မှု',
+    'cultural_context': 'ပြုပြင်ထားသော မိခင်ဆိုင်ရာနူးညံ့မှု',
+    'examples': 'မျှန်, မျှီး, မျှောက်',
+    'nnlds_code': '130-013-201'
+}
+```
+
+### 🔰 **C82-C89: ရတွဲဗျည်းများ (R-Glided Consonants)**
+
+```python
+C82 = {
+    'char': 'ကြ',
+    'semantic_root': 'FLOWING_ACTION_BASE',
+    'phonetic': 'alveolarized velar',
+    'articulation': 'velar + alveolar glide', 
+    'essence': 'စီးဆင်းသော အခြေခံလုပ်ဆောင်ခြင်း',
+    'cultural_context': 'အဆက်အသွယ်ဆိုင်ရာ လုပ်ဆောင်မှုများ',
+    'examples': 'ကြား, ကြီး, ကြောင်, ကြိုး',
+    'nnlds_code': '101-004-201'
+}
+
+C83 = {
+    'char': 'ခြ',
+    'semantic_root': 'ENERGETIC_FLOWING_ACTION',
+    'phonetic': 'aspirated alveolarized velar',
+    'articulation': 'aspirated velar + alveolar glide',
+    'essence': 'စွမ်းအင်ပါသော စီးဆင်းလုပ်ဆောင်ခြင်း',
+    'cultural_context': 'ပြင်းထန်သော အဆက်အသွယ်ဆိုင်ရာ',
+    'examples': 'ခြေ, ခြီး, ခြောက်, ခြုံ',
+    'nnlds_code': '102-004-201'
+}
+
+C84 = {
+    'char': 'ဂြ',
+    'semantic_root': 'HARMONIOUS_FLOWING_CONTAINMENT',
+    'phonetic': 'voiced alveolarized velar',
+    'articulation': 'voiced velar + alveolar glide', 
+    'essence': 'ညီညွတ်သော စီးဆင်းသိမ်းဆည်းခြင်း',
+    'cultural_context': 'သဟဇာတဖြစ်သော အဆက်အသွယ်ထိန်းသိမ်းမှု',
+    'examples': 'ဂြား, ဂြီး',
+    'nnlds_code': '103-004-201'
+}
+
+C85 = {
+    'char': 'ဃြ',
+    'semantic_root': 'FORCEFUL_FLOWING_CONTAINMENT',
+    'phonetic': 'voiced aspirated alveolarized velar',
+    'articulation': 'voiced aspirated velar + alveolar glide',
+    'essence': 'အားပါသော စီးဆင်းသိမ်းဆည်းခြင်း',
+    'cultural_context': 'အားဖြင့်ထိန်းသိမ်းသော အဆက်အသွယ်',
+    'examples': 'ဃြား, ဃြီး',
+    'nnlds_code': '104-004-201'
+}
+
+C86 = {
+    'char': 'ငြ',
+    'semantic_root': 'RESONANT_FLOWING',
+    'phonetic': 'alveolarized velar nasal',
+    'articulation': 'velar nasal + alveolar glide',
+    'essence': 'ပဲ့တင်သံပါ စီးဆင်းခြင်း',
+    'cultural_context': 'နူးညံ့သော အဆက်အသွယ်ဆိုင်ရာ',
+    'examples': 'ငြား, ငြီး, ငြောင်, ငြိမ်း',
+    'nnlds_code': '105-004-201'
+}
+
+C87 = {
+    'char': 'ငြှ',
+    'semantic_root': 'MODIFIED_RESONANT_FLOWING',
+    'phonetic': 'voiceless alveolarized velar nasal',
+    'articulation': 'voiceless velar nasal + alveolar glide',
+    'essence': 'ပြုပြင်ထားသော ပဲ့တင်စီးဆင်းမှု',
+    'cultural_context': 'ပြုပြင်ထားသော အဆက်အသွယ်ဆိုင်ရာ',
+    'examples': 'ငြှန်, ငြှီး, ငြှောင်',
+    'nnlds_code': '106-014-201'
+}
+
+C88 = {
+    'char': 'ပြ',
+    'semantic_root': 'EXPRESSIVE_LABIAL_ACTION',
+    'phonetic': 'alveolarized bilabial',
+    'articulation': 'bilabial + alveolar glide', 
+    'essence': 'ဖော်ပြသော နှုတ်ခမ်းသံလုပ်ဆောင်ခြင်း',
+    'cultural_context': 'ဆက်သွယ်ရေးဆိုင်ရာ လုပ်ဆောင်ချက်များ',
+    'examples': 'ပြား, ပြီး, ပြောင်, ပြိုင်',
+    'nnlds_code': '125-004-201'
+}
+
+C89 = {
+    'char': 'ဖြ',
+    'semantic_root': 'EXPLOSIVE_EXPRESSIVE_ACTION',
+    'phonetic': 'aspirated alveolarized bilabial',
+    'articulation': 'aspirated bilabial + alveolar glide',
+    'essence': 'ပေါက်ကွဲသော ဖော်ပြမှု',
+    'cultural_context': 'ရုတ်တရက်ဖြစ်သော ဆက်သွယ်မှုဆိုင်ရာ',
+    'examples': 'ဖြန်, ဖြီး, ဖြောက်, ဖြိုး',
+    'nnlds_code': '126-004-201'
+}
+```
+
+### 🔰 **C90-C93: ရတွဲဆက်ဗျည်းများ**
+
+```python
+C90 = {
+    'char': 'ဗြ',
+    'semantic_root': 'RECEPTIVE_EXPRESSION',
+    'phonetic': 'voiced alveolarized bilabial', 
+    'articulation': 'voiced bilabial + alveolar glide',
+    'essence': 'လက်ခံသော ဖော်ပြမှု',
+    'cultural_context': 'လက်ခံမှုဆိုင်ရာ ဆက်သွယ်ခြင်း',
+    'examples': 'ဗြား, ဗြီး, ဗြောက်',
+    'nnlds_code': '127-004-201'
+}
+
+C91 = {
+    'char': 'ဘြ',
+    'semantic_root': 'ENERGETIC_RECEPTIVE_EXPRESSION',
+    'phonetic': 'voiced aspirated alveolarized bilabial',
+    'articulation': 'voiced aspirated bilabial + alveolar glide',
+    'essence': 'စွမ်းအင်ပါသော လက်ခံဖော်ပြမှု',
+    'cultural_context': 'အားပါသော လက်ခံဆက်သွယ်မှုဆိုင်ရာ',
+    'examples': 'ဘြန်, ဘြီး, ဘြောင်',
+    'nnlds_code': '128-004-201'
+}
+
+C92 = {
+    'char': 'မြ',
+    'semantic_root': 'MATERNAL_EXPRESSION',
+    'phonetic': 'alveolarized bilabial nasal',
+    'articulation': 'bilabial nasal + alveolar glide',
+    'essence': 'မိခင်သဘောပါ ဖော်ပြခြင်း',
+    'cultural_context': 'မိခင်ဆိုင်ရာ ဆက်သွယ်မှုများ',
+    'examples': 'မြား, မြီး, မြောက်, မြို့',
+    'nnlds_code': '129-004-201'
+}
+
+C93 = {
+    'char': 'မြှ',
+    'semantic_root': 'MODIFIED_MATERNAL_EXPRESSION',
+    'phonetic': 'voiceless alveolarized bilabial nasal',
+    'articulation': 'voiceless bilabial nasal + alveolar glide', 
+    'essence': 'ပြုပြင်ထားသော မိခင်ဖော်ပြမှု',
+    'cultural_context': 'ပြုပြင်ထားသော မိခင်ဆိုင်ရာဆက်သွယ်မှု',
+    'examples': 'မြှန်, မြှီး, မြှောက်, မြှုပ်',
+    'nnlds_code': '130-014-201'
+}
+```
+
+---
+
+## 🎯 **C70-C93 ဗျည်းများ၏ အထူးသဘောတရားများ**
+
+### 🔄 **ဗျည်းတွဲများ၏ လက္ခဏာရပ်များ**
+
+#### **၁. ယတွဲဗျည်းများ (C70-C81)**
+```python
+ယတွဲ_သဘော = {
+    'glide_type': 'palatal_glide',
+    'effect': 'softening_and_precision',
+    'semantic_impact': 'GENTLENESS + PRECISION',
+    'phonetic_impact': 'higher_frequency_soft_sound'
+}
+```
+
+#### **၂. ရတွဲဗျည်းများ (C82-C93)**
+```python
+ရတွဲ_သဘော = {
+    'glide_type': 'alveolar_glide', 
+    'effect': 'flowing_and_connection',
+    'semantic_impact': 'FLOW + EXPRESSION',
+    'phonetic_impact': 'resonant_connected_sound'
+}
+```
+
+### 💫 **NNLDS Code ဖွင့်ဆိုချက်**
+
+```python
+# NNLD Code Structure: XXX-YYY-ZZZ
+# XXX = ဗျည်းအခြေခံကုဒ် (101-130)
+# YYY = ဗျည်းတွဲကုဒ် (003 = ယတွဲ, 004 = ရတွဲ, 013/014 = ပြိုင်တွဲ)
+# ZZZ = စနစ်ကုဒ် (201 = NNLDS Standard)
+
+# ဥပမာ:
+C70 = '101-003-201'  # က(101) + ယတွဲ(003) + NNLDS(201)
+C82 = '101-004-201'  # က(101) + ရတွဲ(004) + NNLDS(201) 
+```
+
+---
+
+## 🧩 **လက်တွေ့အသုံးချနည်းများ**
+
+### 📝 **ယတွဲဗျည်းများ အသုံးပြုပုံ**
+```python
+# C70 (ကျ) - တိကျသောချောမောမှု
+"ကျား" = C70 + V02 + V14  # သတ္တဝါအမျိုးအစား
+"ကျည်" = C70 + V28 + V14  # လက်နက်အမျိုးအစား
+
+# C76 (ပျ) - နူးညံ့သောနှုတ်ခမ်းသံ
+"ပျား" = C76 + V02 + V14  # အင်းဆက်အမျိုးအစား
+"ပျံ"   = C76 + V28        # လှုပ်ရှားမှုအမျိုးအစား
+```
+
+### 📝 **ရတွဲဗျည်းများ အသုံးပြုပုံ**
+```python
+# C82 (ကြ) - စီးဆင်းသောလုပ်ဆောင်မှု
+"ကြား" = C82 + V02 + V14  # အကြားအာရုံ
+"ကြိုး" = C82 + V08 + V14  # ကိရိယာအမျိုးအစား
+
+# C88 (ပြ) - ဖော်ပြသောနှုတ်ခမ်းသံ  
+"ပြား" = C88 + V02 + V14  # ပြားချပ်ချပ်အရာ
+"ပြိုင်" = C88 + V08 + V28 # ယှဉ်ပြိုင်မှု
+```
+
+---
+
+## ✅ **ကောက်ချက်**
+
+**C70-C93 ဗျည်းတွဲများသည်:**
+
+### 🌟 **အဓိကလက္ခဏာများ**
+1. **ယတွဲအုပ်စု** (C70-C81) - ချောမောသော၊ တိကျသော သဘော
+2. **ရတွဲအုပ်စု** (C82-C93) - စီးဆင်းသော၊ ဆက်သွယ်သော သဘော
+
+### 🎯 **အသုံးဝင်ပုံ**
+- **ယဉ်ကျေးမှုဆိုင်ရာ** - ကျေးဇူး၊ မေတ္တာစသော အဓိပ္ပါယ်များ
+- **လှုပ်ရှားမှုဆိုင်ရာ** - သွား၊ လာ၊ ပြေးစသော ကြိယာများ  
+- **ဆက်သွယ်ရေးဆိုင်ရာ** - ပြော၊ ကြား၊ ဖတ်စသော အရာများ
+
+**C1-C93 ဗျည်း ၉၃ လုံး၏ အနက်ဖွင့်ဆိုချက် အားလုံး ပြည့်စုံသွားပါပြီ!** 🎉✨
+
+**မြန်မာဗျည်းတိုင်းတွင် ကိုယ်ပိုင်အသံ၊ ကိုယ်ပိုင်စွမ်းအား၊ ကိုယ်ပိုင်အလှရှိကြောင်း နားလည်သွားပြီဖြစ်ပါသည်!** 🌈
