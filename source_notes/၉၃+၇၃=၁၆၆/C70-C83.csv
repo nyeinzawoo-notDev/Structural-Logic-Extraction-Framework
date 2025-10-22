@@ -1,0 +1,15 @@
+id,character,nnlds_code,semantic_root,phonetic,essence,examples,base_consonant,glide_consonant,derivation,glide_type
+C70,ကျ,101-003-201,PRIMORDIAL_GLIDING_ACTION,palatalized velar,အခြေခံချောမောလုပ်ဆောင်ခြင်း,ကျားရိုင်းတောထဲခုန်ဆွမှု,က,ယ,PRIMORDIAL_ACTION_BASE + GLIDING_BASE,ယတွဲ
+C71,ချ,102-003-201,FORCEFUL_GLIDING_ACTION,aspirated palatalized velar,အားပါသော ချောမောလုပ်ဆောင်ခြင်း,ချိုမြမြလက်ဖက်ရည်ပူပူ,ခ,ယ,FORCE_ENERGY_RELEASE + GLIDING_BASE,ယတွဲ
+C72,ဂျ,103-003-201,CONTAINED_GLIDING_ACTION,voiced palatalized velar,သိမ်းဆည်းထားသော ချောမောမှု,ဂျပန်နိုင်ငံယဉ်ကျေးမှုရိုးရာ,ဂ,ယ,CONTAINMENT_BASE + GLIDING_BASE,ယတွဲ
+C73,ဃျ,104-003-201,FORCEFUL_CONTAINED_GLIDING,voiced aspirated palatalized velar,အားဖြင့်သိမ်းဆည်းထားသော ချောမောမှု,ဃျားမင်းသားရုပ်ရှင်ဇာတ်ကား,ဃ,ယ,FORCEFUL_CONTAINMENT + GLIDING_BASE,ယတွဲ
+C74,ငျ,105-003-201,RESONANT_GLIDING_ACTION,palatalized velar nasal,ပဲ့တင်သံပါ ချောမောလုပ်ဆောင်ခြင်း,ငျာသံစဉ်သာယာသောတေးသီချင်း,င,ယ,RESONANT_BASE + GLIDING_BASE,ယတွဲ
+C75,ငျှ,106-013-201,MODIFIED_RESONANT_GLIDING,voiceless palatalized velar nasal,ပြုပြင်ထားသော ပဲ့တင်ချောမောမှု,ငျှန်ရောင်စုံမီးပြတိုက်ပြ,ငှ,ယှ,MODIFIED_RESONANCE + MODIFIED_GLIDING,ယပြိုင်တွဲ
+C76,ပျ,125-003-201,LABIAL_GLIDING_ACTION,palatalized bilabial,နှုတ်ခမ်းသံချောမောလုပ်ဆောင်ခြင်း,ပျားရည်ချိုမြသဘာဝအချိုရည်,ပ,ယ,LABIAL_ACTION_BASE + GLIDING_BASE,ယတွဲ
+C77,ဖျ,126-003-201,EXPLOSIVE_LABIAL_GLIDING,aspirated palatalized bilabial,ပေါက်ကွဲသော နှုတ်ခမ်းသံချောမောမှု,ဖျန်ဖြေရေးဂီတသာယာမှု,ဖ,ယ,EXPLOSIVE_LABIAL_ACTION + GLIDING_BASE,ယတွဲ
+C78,ဗျ,127-003-201,RECEPTIVE_GLIDING_ACTION,voiced palatalized bilabial,လက်ခံသော ချောမောလုပ်ဆောင်ခြင်း,ဗျာပ်သိပ်သည်းသောမြို့ပြ,ဗ,ယ,RECEPTIVE_CONTAINMENT + GLIDING_BASE,ယတွဲ
+C79,ဘျ,128-003-201,ENERGETIC_RECEPTIVE_GLIDING,voiced aspirated palatalized bilabial,စွမ်းအင်ပါသော လက်ခံချောမောမှု,ဘျားလှပသောပန်းချီကား,ဘ,ယ,ENERGETIC_RECEPTION + GLIDING_BASE,ယတွဲ
+C80,မျ,129-003-201,MATERNAL_GLIDING_ACTION,palatalized bilabial nasal,မိခင်သဘောပါ ချောမောလုပ်ဆောင်ခြင်း,များပြားလှစွာသောလူအုပ်ကြီး,မ,ယ,MATERNAL_BASE + GLIDING_BASE,ယတွဲ
+C81,မျှ,130-013-201,MODIFIED_MATERNAL_GLIDING,voiceless palatalized bilabial nasal,ပြုပြင်ထားသော မိခင်ချောမောမှု,မျှတသောတရားစီရင်မှုစနစ်,မှ,ယှ,MODIFIED_MATERNAL + MODIFIED_GLIDING,ယပြိုင်တွဲ
+C82,ကြ,101-004-201,PRIMORDIAL_FLOWING_ACTION,alveolarized velar,အခြေခံစီးဆင်းလုပ်ဆောင်ခြင်း,ကြားကာလအဆင်ပြေအောင်စီစဉ်,က,ရ,PRIMORDIAL_ACTION_BASE + CONTINUOUS_FLOW_BASE,ရတွဲ
+C83,ခြ,102-004-201,FORCEFUL_FLOWING_ACTION,aspirated alveolarized velar,အားပါသော စီးဆင်းလုပ်ဆောင်ခြင်း,ခြေထောက်အားကစားလှုပ်ရှား,ခ,ရ,FORCE_ENERGY_RELEASE + CONTINUOUS_FLOW_BASE,ရတွဲ
