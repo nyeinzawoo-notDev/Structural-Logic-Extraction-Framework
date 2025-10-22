@@ -1,4 +1,4 @@
-id	character	modern_form	semantic_field	phonetic_root	tone	essence	examples	category			
+id	character	modern_form	semantic_field	phonetic_root	tone	essence	examples1	examples2	examples3	examples4	category
 V01	အ	အ	INHERENT_ACTION_BASE	NEUTRAL_VOWEL	level	ပင်ကိုသဘော၊ အခြေခံလုပ်ဆောင်ခြင်း	က	စ	တ	ပ	အခြေခံသရ
 V02	ာ	အာ	CONTINUOUS_ACTION_EXPANSION	OPEN_VOWEL	level	ဆက်လက်လုပ်ဆောင်ခြင်း၊ ကျယ်ပြန့်ခြင်း	ကာ	စာ	တာ	ပါ	အခြေခံသရ
 V03	ား	အား	EMPHATIC_CONTINUATION	EMPHATIC_OPEN	heavy	အားဖြင့်ဆက်လက်ခြင်း၊ ထောက်ပံ့ခြင်း	ကား	စား	တား	ပါး	အခြေခံသရ
