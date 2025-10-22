@@ -1,0 +1,74 @@
+id,character,modern_form,semantic_field,phonetic_root,tone,essence,examples,category
+V01,အ,INHERENT_ACTION_BASE,NEUTRAL_VOWEL,level,ပင်ကိုသဘော၊ အခြေခံလုပ်ဆောင်ခြင်း,က, စ, တ, ပ,အခြေခံသရ
+V02,ာ,အာ,CONTINUOUS_ACTION_EXPANSION,OPEN_VOWEL,level,ဆက်လက်လုပ်ဆောင်ခြင်း၊ ကျယ်ပြန့်ခြင်း,ကာ, စာ, တာ, ပါ,အခြေခံသရ
+V03,ား,အား,EMPHATIC_CONTINUATION,EMPHATIC_OPEN,heavy,အားဖြင့်ဆက်လက်ခြင်း၊ ထောက်ပံ့ခြင်း,ကား, စား, တား, ပါး,အခြေခံသရ
+V04,ိ,အိ,FOCUSED_CONTRACTION,CLOSE_FRONT_VOWEL,level,စုစည်းအာရုံစိုက်ခြင်း၊ သေးငယ်ခြင်း,ကိ, စိ, တိ, ပီ,အခြေခံသရ
+V05,ီ့,အီ့,CONTRACTED_EMPHASIS,EMPHATIC_CLOSE_FRONT,creaky,စုစည်းအားဖြင့် အာရုံစိုက်ခြင်း,ကီ့, စီ့, တီ့, ပီ့,အခြေခံသရ
+V06,ီ,အီ,SUSTAINED_CONTRACTION,LONG_CLOSE_FRONT,level,ရေရှည်စုစည်းခြင်း၊ တည်တံ့ခြင်း,ကီ, စီ, တီ, ပီ,အခြေခံသရ
+V07,ီး,အီး,TERMINAL_CONTRACTION,TERMINAL_CLOSE_FRONT,heavy,အဆုံးသတ်စုစည်းခြင်း၊ ပြီးဆုံးခြင်း,ကီး, စီး, တီး, ပီး,အခြေခံသရ
+V08,ု,အု,ROUNDED_ACTION_BASE,CLOSE_BACK_VOWEL,level,ဝိုင်းဝန်းသော လုပ်ဆောင်ခြင်း,ကု, စု, တု, ပု,အခြေခံသရ
+V09,ူ့,အူ့,ROUNDED_EMPHASIS,EMPHATIC_CLOSE_BACK,creaky,အားဖြင့်ဝိုင်းဝန်းခြင်း,ကူ့, စူ့, တူ့, ပူ့,အခြေခံသရ
+V10,ူ,အူ,SUSTAINED_ROUNDNESS,LONG_CLOSE_BACK,level,ရေရှည်ဝိုင်းဝန်းခြင်း,ကူ, စူ, တူ, ပူ,အခြေခံသရ
+V11,ူး,အူး,TERMINAL_ROUNDNESS,TERMINAL_CLOSE_BACK,heavy,အဆုံးသတ်ဝိုင်းဝန်းခြင်း,ကူး, စူး, တူး, ပူး,အခြေခံသရ
+V12,ေ,အေ,ILLUMINATED_ACTION_BASE,MID_FRONT_VOWEL,level,အလင်းရောင်သဖွယ် လုပ်ဆောင်ခြင်း,ကေ, စေ, တေ, ပေ,အခြေခံသရ
+V13,ေ့,အေ့,ILLUMINATED_STOPPED,STOPPED_MID_FRONT,creaky,ရပ်တန့်သော အလင်းသဘော,ကေ့, စေ့, တေ့, ပေ့,အခြေခံသရ
+V14,ေး,အေး,ILLUMINATED_EXTENSION,LENGTHENED_MID_FRONT,level,ဆန့်ကျယ်သော အလင်းသဘော,ကေး, စေး, တေး, ပေး,အခြေခံသရ
+V15,ယ်,အိုင်း,GLIDING_TERMINATION,PALATAL_GLIDE_STOP,level,ချောမောစွာ အဆုံးသတ်ခြင်း,ကယ်, စယ်, တယ်, ပယ်,ဂီတသရ
+V16,ယ့်,အိုင့်,GLIDING_EMPHATIC_STOP,EMPHATIC_PALATAL_GLIDE,creaky,အားဖြင့်ချောမောအဆုံးသတ်ခြင်း,ကယ့်, စယ့်, တယ့်, ပယ့်,ဂီတသရ
+V17,ယ်း,အိုင်းး,GLIDING_TERMINAL_EXTENSION,TERMINAL_PALATAL_GLIDE,heavy,အဆုံးသတ်ချောမောဆန့်ကျယ်ခြင်း,ကယ်း, စယ်း, တယ်း, ပယ်း,ဂီတသရ
+V18,ည်,အည်,PALATAL_RESONANT_TERMINATION,PALATAL_NASAL_GLIDE,level,အာခေါင်သံပဲ့တင် အဆုံးသတ်ခြင်း,ကည်, စည်, တည်, ပည်,ဂီတသရ
+V19,ည့်,အည့်,PALATAL_RESONANT_EMPHASIS,EMPHATIC_PALATAL_NASAL,creaky,အားဖြင့်အာခေါင်သံပဲ့တင်ခြင်း,ကည့်, စည့်, တည့်, ပည့်,ဂီတသရ
+V20,ည်း,အည်း,PALATAL_RESONANT_EXTENSION,TERMINAL_PALATAL_NASAL,heavy,အဆုံးသတ်အာခေါင်သံပဲ့တင်ခြင်း,ကည်း, စည်း, တည်း, ပည်း,ဂီတသရ
+V21,ော်,အော်,ROUNDED_TERMINATION,ROUND_STOP,level,ဝိုင်းဝန်းစွာ အဆုံးသတ်ခြင်း,ကော်, စော်, တော်, ပော်,ဝိုင်းဝန်းသရ
+V22,ောဝ်,အောဝ်,COMPOUND_ROUNDED_TERMINATION,COMPOUND_ROUND_STOP,level,ရှုပ်ထွေးဝိုင်းဝန်းအဆုံးသတ်ခြင်း,ကြောဝ်, ခြောဝ်,ဝိုင်းဝန်းသရ
+V23,ော့,အော့,ROUNDED_STOPPED_ACTION,STOPPED_ROUND,creaky,ရပ်တန့်သော ဝိုင်းဝန်းမှု,ကော့, စော့, တော့, ပော့,ဝိုင်းဝန်းသရ
+V24,ော,အော,OPEN_ROUNDNESS,OPEN_ROUND_VOWEL,level,ဖွင့်ထားသော ဝိုင်းဝန်းခြင်း,ကော, စော, တော, ပော,ဝိုင်းဝန်းသရ
+V25,က်,အက်,VELAR_STOPPED_ACTION,VELAR_STOP,stopped,အာခေါင်နောက်ပိုင်းဖြင့် ရပ်တန့်ခြင်း,ခက်, ချက်, ငပ်, အုတ်,ဝိုင်းဝန်းသရ
+V26,ိုက်,အိုက်,CONTRACTED_VELAR_STOP,CONTRACTED_VELAR_STOP,stopped,စုစည်းအာခေါင်နောက်ရပ်တန့်ခြင်း,ချိုက်, ငိုက်, ပိုက်,ဝိုင်းဝန်းသရ
+V27,ောက်,အောက်,ROUNDED_VELAR_STOP,ROUNDED_VELAR_STOP,stopped,ဝိုင်းဝန်းအာခေါင်နောက်ရပ်တန့်ခြင်း,ခေါက်, ခြောက်, ပေါက်,ဝိုင်းဝန်းသရ
+V28,င်,အင်,VELAR_NASAL_RESONANCE,VELAR_NASAL,level,အာခေါင်နောက်နှာခေါင်းသံပဲ့တင်ခြင်း,ကင်, ခင်, ပြင်, မြင်,နှာခေါင်းသံသရ
+V29,င့်,အင့်,VELAR_NASAL_EMPHASIS,EMPHATIC_VELAR_NASAL,creaky,အားဖြင့်အာခေါင်နောက်နှာခေါင်းသံ,ကင့်, ခင့်, ပင့်, မြင့်,နှာခေါင်းသံသရ
+V30,င်း,အင်း,VELAR_NASAL_EXTENSION,TERMINAL_VELAR_NASAL,heavy,အဆုံးသတ်အာခေါင်နောက်နှာခေါင်းသံ,ကင်း, ခင်း, ပင်း, မင်း,နှာခေါင်းသံသရ
+V31,ိုင်,အိုင်,CONTRACTED_VELAR_NASAL,CONTRACTED_VELAR_NASAL,level,စုစည်းအာခေါင်နောက်နှာခေါင်းသံ,ချိုင်, ငိုင်, ပိုင်,နှာခေါင်းသံသရ
+V32,ိုင့်,အိုင့်,CONTRACTED_VELAR_NASAL_EMPHASIS,EMPHATIC_CONTRACTED_VELAR_NASAL,creaky,အားဖြင့်စုစည်းအာခေါင်နောက်နှာခေါင်းသံ,ချိုင့်, ငိုင့်, ပိုင့်,နှာခေါင်းသံသရ
+V33,ိုင်း,အိုင်း,CONTRACTED_VELAR_NASAL_EXTENSION,TERMINAL_CONTRACTED_VELAR_NASAL,heavy,အဆုံးသတ်စုစည်းအာခေါင်နောက်နှာခေါင်းသံ,ချိုင်း, ငိုင်း, ပိုင်း,နှာခေါင်းသံသရ
+V34,ောင်,အောင်,ROUNDED_VELAR_NASAL,ROUNDED_VELAR_NASAL,level,ဝိုင်းဝန်းအာခေါင်နောက်နှာခေါင်းသံ,ခေါင်, ခြောင်, ပေါင်,နှာခေါင်းသံသရ
+V35,ောင့်,အောင့်,ROUNDED_VELAR_NASAL_EMPHASIS,EMPHATIC_ROUNDED_VELAR_NASAL,creaky,အားဖြင့်ဝိုင်းဝန်းအာခေါင်နောက်နှာခေါင်းသံ,ခေါင့်, ခြောင့်, ပေါင့်,နှာခေါင်းသံသရ
+V36,ောင်း,အောင်း,ROUNDED_VELAR_NASAL_EXTENSION,TERMINAL_ROUNDED_VELAR_NASAL,heavy,အဆုံးသတ်ဝိုင်းဝန်းအာခေါင်နောက်နှာခေါင်းသံ,ခေါင်း, ခြောင်း, ပေါင်း,နှာခေါင်းသံသရ
+V37,စ်,အစ်,DENTAL_STOPPED_ACTION,DENTAL_STOP,stopped,သွားသံဖြင့် ရပ်တန့်ခြင်း,ခစ်, ငစ်, ပစ်,သွားသံသရ
+V38,ည်,အည်,PALATAL_NASAL_STOP,PALATAL_NASAL_STOP,stopped,အာခေါင်နှာခေါင်းသံဖြင့် ရပ်တန့်ခြင်း,ခည်, ပည်,သွားသံသရ
+V39,ဉ်,အဉ်,PALATAL_NASAL_EXTENDED_STOP,EXTENDED_PALATAL_NASAL_STOP,stopped,ဆန့်ကျယ်အာခေါင်နှာခေါင်းသံရပ်တန့်ခြင်း,ခဉ်, ပဉ်,သွားသံသရ
+V40,ဉ့်,အဉ့်,PALATAL_NASAL_EMPHATIC_STOP,EMPHATIC_PALATAL_NASAL_STOP,creaky,အားဖြင့်အာခေါင်နှာခေါင်းသံရပ်တန့်ခြင်း,ခဉ့်, ပဉ့်,သွားသံသရ
+V41,တ်,အတ်,DENTAL_PLOSIVE_STOP,DENTAL_PLOSIVE_STOP,stopped,သွားသံပေါက်ကွဲရပ်တန့်ခြင်း,ခတ်, ပတ်, မှတ်,သွားသံသရ
+V42,တ့်,အတ့်,DENTAL_PLOSIVE_EMPHATIC_STOP,EMPHATIC_DENTAL_PLOSIVE_STOP,creaky,အားဖြင့်သွားသံပေါက်ကွဲရပ်တန့်ခြင်း,ခတ့်, ပတ့်,သွားသံသရ
+V43,တ်း,အတ်း,DENTAL_PLOSIVE_TERMINAL_STOP,TERMINAL_DENTAL_PLOSIVE_STOP,heavy,အဆုံးသတ်သွားသံပေါက်ကွဲရပ်တန့်ခြင်း,ခတ်း, ပတ်း,သွားသံသရ
+V44,န်,အန်,ALVEOLAR_NASAL_RESONANCE,ALVEOLAR_NASAL,level,သွားဖုံးနှာခေါင်းသံပဲ့တင်ခြင်း,ခန်, ပန်, မန်,နှာခေါင်းသံဆက်
+V45,န့်,အန့်,ALVEOLAR_NASAL_EMPHASIS,EMPHATIC_ALVEOLAR_NASAL,creaky,အားဖြင့်သွားဖုံးနှာခေါင်းသံ,ခန့်, ပန့်, မန့်,နှာခေါင်းသံဆက်
+V46,န်း,အန်း,ALVEOLAR_NASAL_EXTENSION,TERMINAL_ALVEOLAR_NASAL,heavy,အဆုံးသတ်သွားဖုံးနှာခေါင်းသံ,ခန်း, ပန်း, မန်း,နှာခေါင်းသံဆက်
+V47,ိန်,အိန်,CONTRACTED_ALVEOLAR_NASAL,CONTRACTED_ALVEOLAR_NASAL,level,စုစည်းသွားဖုံးနှာခေါင်းသံ,ချိန်, ပျိန်,နှာခေါင်းသံဆက်
+V48,ိန့်,အိန့်,CONTRACTED_ALVEOLAR_NASAL_EMPHASIS,EMPHATIC_CONTRACTED_ALVEOLAR_NASAL,creaky,အားဖြင့်စုစည်းသွားဖုံးနှာခေါင်းသံ,ချိန့်, ပျိန့်,နှာခေါင်းသံဆက်
+V49,ိန်း,အိန်း,CONTRACTED_ALVEOLAR_NASAL_EXTENSION,TERMINAL_CONTRACTED_ALVEOLAR_NASAL,heavy,အဆုံးသတ်စုစည်းသွားဖုံးနှာခေါင်းသံ,ချိန်း, ပျိန်း,နှာခေါင်းသံဆက်
+V50,ုန်,အုန်,ROUNDED_ALVEOLAR_NASAL,ROUNDED_ALVEOLAR_NASAL,level,ဝိုင်းဝန်းသွားဖုံးနှာခေါင်းသံ,ခုန်, ပြုန်,နှာခေါင်းသံဆက်
+V51,ုန့်,အုန့်,ROUNDED_ALVEOLAR_NASAL_EMPHASIS,EMPHATIC_ROUNDED_ALVEOLAR_NASAL,creaky,အားဖြင့်ဝိုင်းဝန်းသွားဖုံးနှာခေါင်းသံ,ခုန့်, ပြုန့်,နှာခေါင်းသံဆက်
+V52,ုန်း,အုန်း,ROUNDED_ALVEOLAR_NASAL_EXTENSION,TERMINAL_ROUNDED_ALVEOLAR_NASAL,heavy,အဆုံးသတ်ဝိုင်းဝန်းသွားဖုံးနှာခေါင်းသံ,ခုန်း, ပြုန်း,နှာခေါင်းသံဆက်
+V53,ပ်,အပ်,LABIAL_STOPPED_ACTION,LABIAL_STOP,stopped,နှုတ်ခမ်းသံဖြင့် ရပ်တန့်ခြင်း,ခပ်, ပြပ်, မှပ်,နှုတ်ခမ်းသံသရ
+V54,ပ့်,အပ့်,LABIAL_EMPHATIC_STOP,EMPHATIC_LABIAL_STOP,creaky,အားဖြင့်နှုတ်ခမ်းသံရပ်တန့်ခြင်း,ခပ့်, ပြပ့်,နှုတ်ခမ်းသံသရ
+V55,ပ်း,အပ်း,LABIAL_TERMINAL_STOP,TERMINAL_LABIAL_STOP,heavy,အဆုံးသတ်နှုတ်ခမ်းသံရပ်တန့်ခြင်း,ခပ်း, ပြပ်း,နှုတ်ခမ်းသံသရ
+V56,ံ,အံ,OPEN_NASAL_RESONANCE,OPEN_NASAL,level,ဖွင့်ထားသော နှာခေါင်းသံပဲ့တင်ခြင်း,ခံ, ပံ, မံ,နှုတ်ခမ်းသံသရ
+V57,ံ့,အံ့,OPEN_NASAL_EMPHASIS,EMPHATIC_OPEN_NASAL,creaky,အားဖြင့်ဖွင့်ထားသော နှာခေါင်းသံ,ခံ့, ပံ့, မံ့,နှုတ်ခမ်းသံသရ
+V58,ံး,အံး,OPEN_NASAL_EXTENSION,TERMINAL_OPEN_NASAL,heavy,အဆုံးသတ်ဖွင့်ထားသော နှာခေါင်းသံ,ခံး, ပံး, မံး,နှုတ်ခမ်းသံသရ
+V59,မ်,အမ်,BILABIAL_NASAL_RESONANCE,BILABIAL_NASAL,level,နှုတ်ခမ်းနှာခေါင်းသံပဲ့တင်ခြင်း,ခမ်, ပမ်, မမ်,နှုတ်ခမ်းသံသရ
+V60,မ့်,အမ့်,BILABIAL_NASAL_EMPHASIS,EMPHATIC_BILABIAL_NASAL,creaky,အားဖြင့်နှုတ်ခမ်းနှာခေါင်းသံ,ခမ့်, ပမ့်, မမ့်,နှုတ်ခမ်းသံသရ
+V61,မ်း,အမ်း,BILABIAL_NASAL_EXTENSION,TERMINAL_BILABIAL_NASAL,heavy,အဆုံးသတ်နှုတ်ခမ်းနှာခေါင်းသံ,ခမ်း, ပမ်း, မမ်း,နှုတ်ခမ်းသံသရ
+V62,ိမ်,အိမ်,CONTRACTED_BILABIAL_NASAL,CONTRACTED_BILABIAL_NASAL,level,စုစည်းနှုတ်ခမ်းနှာခေါင်းသံ,ချိမ်, ပျိမ်,ရှုပ်ထွေးသရ
+V63,ိမ့်,အိမ့်,CONTRACTED_BILABIAL_NASAL_EMPHASIS,EMPHATIC_CONTRACTED_BILABIAL_NASAL,creaky,အားဖြင့်စုစည်းနှုတ်ခမ်းနှာခေါင်းသံ,ချိမ့်, ပျိမ့်,ရှုပ်ထွေးသရ
+V64,ိမ်း,အိမ်း,CONTRACTED_BILABIAL_NASAL_EXTENSION,TERMINAL_CONTRACTED_BILABIAL_NASAL,heavy,အဆုံးသတ်စုစည်းနှုတ်ခမ်းနှာခေါင်းသံ,ချိမ်း, ပျိမ်း,ရှုပ်ထွေးသရ
+V65,ုမ်,အုမ်,ROUNDED_BILABIAL_NASAL,ROUNDED_BILABIAL_NASAL,level,ဝိုင်းဝန်းနှုတ်ခမ်းနှာခေါင်းသံ,ခူမ်, ပြုမ်,ရှုပ်ထွေးသရ
+V66,ုမ့်,အုမ့်,ROUNDED_BILABIAL_NASAL_EMPHASIS,EMPHATIC_ROUNDED_BILABIAL_NASAL,creaky,အားဖြင့်ဝိုင်းဝန်းနှုတ်ခမ်းနှာခေါင်းသံ,ခူမ့်, ပြုမ့်,ရှုပ်ထွေးသရ
+V67,ုမ်း,အုမ်း,ROUNDED_BILABIAL_NASAL_EXTENSION,TERMINAL_ROUNDED_BILABIAL_NASAL,heavy,အဆုံးသတ်ဝိုင်းဝန်းနှုတ်ခမ်းနှာခေါင်းသံ,ခူမ်း, ပြုမ်း,ရှုပ်ထွေးသရ
+V68,ေမ်,အေမ်,ILLUMINATED_BILABIAL_NASAL,ILLUMINATED_BILABIAL_NASAL,level,အလင်းသဘောပါ နှုတ်ခမ်းနှာခေါင်းသံ,ချေမ်, ပေမ်,ရှုပ်ထွေးသရ
+V69,ေမ့်,အေမ့်,ILLUMINATED_BILABIAL_NASAL_EMPHASIS,EMPHATIC_ILLUMINATED_BILABIAL_NASAL,creaky,အားဖြင့်အလင်းသဘောပါ နှုတ်ခမ်းနှာခေါင်းသံ,ချေမ့်, ပေမ့်,ရှုပ်ထွေးသရ
+V70,ေမ်း,အေမ်း,ILLUMINATED_BILABIAL_NASAL_EXTENSION,TERMINAL_ILLUMINATED_BILABIAL_NASAL,heavy,အဆုံးသတ်အလင်းသဘောပါ နှုတ်ခမ်းနှာခေါင်းသံ,ချေမ်း, ပေမ်း,ရှုပ်ထွေးသရ
+V71,ို,အို,COMPOUND_ROUNDED_CONTRACTION,COMPOUND_ROUND_CLOSE,level,ရှုပ်ထွေးဝိုင်းဝန်းစုစည်းခြင်း,ကြို, ပျို, မြို,ရှုပ်ထွေးသရ
+V72,ို့,အို့,COMPOUND_ROUNDED_EMPHASIS,EMPHATIC_COMPOUND_ROUND,creaky,အားဖြင့်ရှုပ်ထွေးဝိုင်းဝန်းခြင်း,ကြို့, ပျို့, မြို့,ရှုပ်ထွေးသရ
+V73,ိုး,အိုး,COMPOUND_ROUNDED_EXTENSION,TERMINAL_COMPOUND_ROUND,heavy,အဆုံးသတ်ရှုပ်ထွေးဝိုင်းဝန်းခြင်း,ကြိုး, ပျိုး, မြိုး,ရှုပ်ထွေးသရ
