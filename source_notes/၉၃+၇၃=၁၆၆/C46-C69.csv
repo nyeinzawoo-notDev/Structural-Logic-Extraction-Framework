@@ -1,0 +1,25 @@
+id,character,nnlds_code,semantic_root,phonetic,essence,examples,base_consonant,glide_consonant,relation_to_base
+C46,ကျ,147-000-201,PRECISE_GLIDING_ACTION,palatalized velar,အခြေခံချောမောလုပ်ဆောင်ခြင်း,ကျောင်းဆင်းချိန်ကလေးများစီတန်း,က,ယ,ဝေးကွာ
+C47,ချ,148-000-201,ENERGETIC_GLIDING_ACTION,aspirated palatalized velar,အားပါသော ချောမောလုပ်ဆောင်ခြင်း,ချောင်းဆိုးဆေးလိပ်ဖြတ်ကုသမှု,ခ,ယ,ဝေးကွာ
+C48,ဂျ,149-000-201,CONTAINED_GLIDING_ACTION,voiced palatalized velar,သိမ်းဆည်းထားသော ချောမောမှု,ဂျပန်နိုင်ငံစီးပွားရေးဖွံ့ဖြိုး,ဂ,ယ,ဝေးကွာ
+C49,ဃျ,150-000-201,FORCEFUL_CONTAINED_GLIDING,voiced aspirated palatalized velar,အားဖြင့်သိမ်းဆည်းထားသော ချောမောမှု,ဃျားလှပသောရုပ်ရှင်ကားကြည့်,ဃ,ယ,ဝေးကွာ
+C50,ငျ,151-000-201,RESONANT_GLIDING_ACTION,palatalized velar nasal,ပဲ့တင်သံပါ ချောမောလုပ်ဆောင်ခြင်း,ငျာသံစဉ်လှပသောတေးဂီတ,င,ယ,ဝေးကွာ
+C51,ငျှ,152-000-201,MODIFIED_RESONANT_GLIDING,voiceless palatalized velar nasal,ပြုပြင်ထားသော ပဲ့တင်ချောမောမှု,ငျှန်ရောင်စုံမီးပန်းပွဲတော်,ငှ,ယှ,ဝေးကွာ
+C52,စျ,153-000-201,DENTAL_GLIDING_ACTION,palatalized dental,သွားသံချောမောလုပ်ဆောင်ခြင်း,စျေးကွက်ရှာဖွေရေးနည်းဗျူဟာ,စ,ယ,ဝေးကွာ
+C53,ဆျ,154-000-201,ENERGETIC_DENTAL_GLIDING,aspirated palatalized dental,အားပါသော သွားသံချောမောမှု,ဆျောင်းရာသီနှင်းခဲလှပ,ဆ,ယ,ဝေးကွာ
+C54,ဇျ,155-000-201,CONTAINED_DENTAL_GLIDING,voiced palatalized dental,သိမ်းဆည်းထားသော သွားသံချောမောမှု,ဇျာနယ်ခြားဒေသခရီးသွား,ဇ,ယ,ဝေးကွာ
+C55,ဈျ,156-000-201,FORCEFUL_DENTAL_CONTAINMENT,voiced aspirated palatalized dental,အားဖြင့်သိမ်းဆည်းထားသော သွားသံချောမောမှု,ဈျေးမြင့်ပစ္စည်းအရည်အသွေး,ဈ,ယ,ဝေးကွာ
+C56,ဉျ,157-000-201,NASAL_DENTAL_GLIDING,palatalized dental nasal,နှာခေါင်းသံပါ သွားသံချောမောမှု,ဉျာဏ်ပညာဖွံ့ဖြိုးရေးသင်တန်း,ဉ,ယ,ဝေးကွာ
+C57,ညျ,158-000-201,RESONANT_DENTAL_GLIDING,palatalized palatal nasal,ပဲ့တင်သံပါ သွားသံချောမောမှု,ညျပ်သမားလက်ရာမြောက်ပစ္စည်း,ည,ယ,ဝေးကွာ
+C58,ကြ,147-000-201,FLOWING_ACTION_BASE,alveolarized velar,အခြေခံစီးဆင်းလုပ်ဆောင်ခြင်း,ကြောက်လန့်တုန်လှုပ်သောစိတ်ခံစားမှု,က,ရ,ဝေးကွာ
+C59,ခြ,148-000-201,FORCEFUL_FLOWING_ACTION,aspirated alveolarized velar,အားပါသော စီးဆင်းလုပ်ဆောင်ခြင်း,ခြေထောက်ဒဏ်ရာပြင်းထန်စွာ,ခ,ရ,ဝေးကွာ
+C60,ဂြ,149-000-201,CONTAINED_FLOWING_ACTION,voiced alveolarized velar,သိမ်းဆည်းထားသော စီးဆင်းမှု,ဂြိုလ်တုလွှတ်တင်ရေးစီမံကိန်း,ဂ,ရ,ဝေးကွာ
+C61,ဃြ,150-000-201,FORCEFUL_CONTAINED_FLOWING,voiced aspirated alveolarized velar,အားဖြင့်သိမ်းဆည်းထားသော စီးဆင်းမှု,ဃြိမ်းချမ်းရေးဆွေးနွေးပွဲကျင်းပ,ဃ,ရ,ဝေးကွာ
+C62,ငြ,151-000-201,RESONANT_FLOWING_ACTION,alveolarized velar nasal,ပဲ့တင်သံပါ စီးဆင်းလုပ်ဆောင်ခြင်း,ငြိမ်းချမ်းရေးတံခွန်စိုက်ပျိုး,င,ရ,ဝေးကွာ
+C63,ငြှ,152-000-201,MODIFIED_RESONANT_FLOWING,voiceless alveolarized velar nasal,ပြုပြင်ထားသော ပဲ့တင်စီးဆင်းမှု,ငြှီးဆူသောလူအုပ်ဆန္ဒပြ,ငှ,ရှ,ဝေးကွာ
+C64,ပြ,153-000-201,EXPRESSIVE_LABIAL_ACTION,alveolarized bilabial,နှုတ်ခမ်းသံဖြင့် ဖော်ပြလုပ်ဆောင်ခြင်း,ပြောင်းဖူးစိုက်ပျိုးရေသီးနှံခင်း,ပ,ရ,ဝေးကွာ
+C65,ဖြ,154-000-201,EXPLOSIVE_EXPRESSIVE_ACTION,aspirated alveolarized bilabial,ပေါက်ကွဲသော ဖော်ပြလုပ်ဆောင်ခြင်း,ဖြန့်ချိရေးကွန်ယက်ချဲ့ထွ,ဖ,ရ,ဝေးကွာ
+C66,ဗြ,155-000-201,RECEPTIVE_EXPRESSIVE_ACTION,voiced alveolarized bilabial,လက်ခံသော ဖော်ပြလုပ်ဆောင်ခြင်း,ဗြောင်းဆန်သောအကြံဉာဏ်သစ်,ဗ,ရ,ဝေးကွာ
+C67,ဘြ,156-000-201,ENERGETIC_RECEPTIVE_EXPRESSION,voiced aspirated alveolarized bilabial,စွမ်းအင်ပါသော လက်ခံဖော်ပြမှု,ဘြိမ်းစွာနေထိုင်ကျင့်သုံး,ဘ,ရ,ဝေးကွာ
+C68,မြ,157-000-201,MATERNAL_EXPRESSION,alveolarized bilabial nasal,မိခင်သဘောပါ ဖော်ပြခြင်း,မြန်မာ့ရိုးရာယဉ်ကျေးမှုအမွေ,မ,ရ,ဝေးကွာ
+C69,မြှ,158-000-201,MODIFIED_MATERNAL_EXPRESSION,voiceless alveolarized bilabial nasal,ပြုပြင်ထားသော မိခင်ဖော်ပြမှု,မြှုပ်နှံရင်းနှီးမှုအကျိုး,မှ,ရှ,ဝေးကွာ
