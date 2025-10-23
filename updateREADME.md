@@ -14,9 +14,8 @@ Traditional AI Ethics Frameworks များ (Utilitarianism, Deontology) သ�
 
 ## 🛠️ စတင်အသုံးပြုခြင်း (Getting Started)
 
-1.  **Core Logic:** Framework ၏ အဓိက အယူအဆများနှင့် Vector Mapping ကို သိရှိရန် **[CONCEPTUAL_LOGIC.md](nyeinzawoo-notdev-SLEF-Structural-Logic-Extraction-Framework/docs
-/CONCEPTUAL_LOGIC.md)
-)** ကို ဖတ်ရှုပါ။
+1.  **Core Logic:** Framework ၏ အဓိက အယူအဆများနှင့် Vector Mapping ကို သိရှိရန် **[nyeinzawoo-notdev-SLEF-Structural-Logic-Extraction-Framework/docs
+/CONCEPTUAL_LOGIC.md](CONCEPTUAL_LOGIC.md)** ကို ဖတ်ရှုပါ။
 2.  **Compliance Test:** Framework ကို အခြား AI Model များတွင် စမ်းသပ်ရန် **[TESTING_PROTOCOL.md](TESTING_PROTOCOL.md)** ရှိ **Standard Test Case** ကို အသုံးပြုပါ။
 
 ## ⚖️ ဉာဏ်ပညာပိုင်ဆိုင်မှုနှင့် လိုင်စင် (IP & License)
