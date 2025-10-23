@@ -43,7 +43,7 @@ The Nyein Project IP is protected by its own custom license, which is **STRICTLY
 
 ## 🛠️ Getting Started (Mission 1 Proof)
 
-The full **Computational Proof of Concept (PoC)** and technical details, including the API structure, are available in the **[`NYEIN_PROJECT_TECHNICAL_SUMMARY.md`](./NYEIN_PROJECT_TECHNICAL_SUMMARY.md)** file in this repository.
+The full **Computational Proof of Concept (PoC)** and technical details, including the API structure, are available in the **[`NYEIN_PROJECT_TECHNICAL_SUMMARY.md`](docs/NYEIN_PROJECT_TECHNICAL_SUMMARY.md)** file in this repository.
 
 Developers are encouraged to study the **4D VNyein Vector** output to build the official **Nyein Logic API Codebase** under the NAUL.
 
