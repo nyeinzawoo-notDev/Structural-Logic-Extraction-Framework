@@ -1,3 +1,24 @@
+# 🤖 AI Processed Documentation & Conversation Logs (`docs/`)
+
+ဤဖိုင်တွဲသည် **AI (ဥပမာ: LLMs)** များနှင့် နည်းပညာပိုင်းဆိုင်ရာ ဆွေးနွေးမှု၊ စီစစ်မှုများ ပြုလုပ်ထားသော မှတ်တမ်းများ (Conversation Logs) ကို အဓိကထား၍ စုစည်းထားသော နေရာ ဖြစ်ပါသည်။
+
+## 📝 ဖိုင်တွဲ၏ ရည်ရွယ်ချက် (Purpose)
+
+ဤနေရာရှိ မှတ်တမ်းများသည် `source_notes/` မှ အခြေခံယူဆချက်များကို နည်းပညာစနစ်နှင့် ပေါင်းစပ်ရာတွင် အသုံးပြုခဲ့သော **AI ၏ အကူအညီဖြင့် တည်ဆောက်ထားသည့်** အောက်ပါ အချက်များ ပါဝင်ပါသည်။
+
+1.  **AI Conversation Logs:** စီမံကိန်း၏ Logic, Architecture, Data Structure စသည်တို့ကို AI များဖြင့် ဆွေးနွေး၊ စမ်းသပ်ခဲ့သည့် မှတ်တမ်းများ။
+2.  **Final Documentation:** AI ၏ အကူအညီဖြင့် ပုံစံတကျ ရေးသားထားသော Technical Whitepapers နှင့် Logical Explanation များ (ဥပမာ: `NYEIN_PROJECT_TECHNICAL_SUMMARY.md`)။
+
+## ⚠️ သိမ်းဆည်းရမည့် ဖိုင်အမျိုးအစားများ (File Types)
+
+* **Documentation:** `.md` (Markdown)
+* **Conversation Logs:** `.json`, `.txt` (Chat Logs များ)
+* **NO Code:** Python Code (`.py`) လုံးဝ ထားရှိခြင်းမပြုရ။
+
+**NOTE:** ဤမှတ်တမ်းများသည် NSTF/SLEF ၏ **Architecture နှင့် Implementation** ကို နားလည်ရန်အတွက် အဓိကကျပါသည်။
+
+
+
 # 📚 Documentation and Concepts (`docs/`)
 
 This folder holds all non-code, technical, philosophical, and architectural explanations for the Nyein Project.
