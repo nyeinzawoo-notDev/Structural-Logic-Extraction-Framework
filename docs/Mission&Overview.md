@@ -14,8 +14,8 @@ Traditional AI Ethics Frameworks များ (Utilitarianism, Deontology) သ�
 
 ## 🛠️ စတင်အသုံးပြုခြင်း (Getting Started)
 
-1.  **Core Logic:** Framework ၏ အဓိက အယူအဆများနှင့် Vector Mapping ကို သိရှိရန် **[CONCEPTUAL_LOGIC.md](docs/CONCEPTUAL_LOGIC.md)** ကို ဖတ်ရှုပါ။
-2.  **Compliance Test:** Framework ကို အခြား AI Model များတွင် စမ်းသပ်ရန် **[TESTING_PROTOCOL.md](docs/TESTING_PROTOCOL.md)** ရှိ **Standard Test Case** ကို အသုံးပြုပါ။
+1.  **Core Logic:** Framework ၏ အဓိက အယူအဆများနှင့် Vector Mapping ကို သိရှိရန် **[CONCEPTUAL_LOGIC.md](../docs/CONCEPTUAL_LOGIC.md)** ကို ဖတ်ရှုပါ။
+2.  **Compliance Test:** Framework ကို အခြား AI Model များတွင် စမ်းသပ်ရန် **[TESTING_PROTOCOL.md](../docs/TESTING_PROTOCOL.md)** ရှိ **Standard Test Case** ကို အသုံးပြုပါ။
 
 ## ⚖️ ဉာဏ်ပညာပိုင်ဆိုင်မှုနှင့် လိုင်စင် (IP & License)
 
@@ -23,4 +23,4 @@ Traditional AI Ethics Frameworks များ (Utilitarianism, Deontology) သ�
 
 ⚠️ **အထူးသတိပြုရန်:** Nyein IP ကို အသုံးပြု၍ ဖန်တီးသော မည်သည့် Dataset/Derivative Works မဆို **Commercial AI Training** အတွက် **လုံးဝ** အသုံးမပြုရ။
 
-အသေးစိတ် စည်းမျဉ်းစည်းကမ်းများအတွက် **[LICENSE.md](LICENSE.md)** ကို ဖတ်ရှုပါ။
+အသေးစိတ် စည်းမျဉ်းစည်းကမ်းများအတွက် **[LICENSE.md](../LICENSE.md)** ကို ဖတ်ရှုပါ။
