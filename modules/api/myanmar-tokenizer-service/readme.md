@@ -54,3 +54,88 @@
     python test_ai_integration.py
     ```
     (ဒါမှမဟုတ် Python code ထဲမှာ `tokenize_myanmar_text("ပေးပို့မည့် စာသား")` လို့ ခေါ်ယူသုံးစွဲနိုင်ပါတယ်။)
+
+
+    👍 အရမ်းကောင်းပါတယ်။ အခုဆိုရင် **API Server စတင် အလုပ်လုပ်နေပါပြီ**။
+
+သင်ပြဿနာဖြေရှင်းတဲ့နေရာမှာ ဖိုင်တွေကို အစားထိုးပြီး၊ command ကိုလည်း မှန်ကန်စွာ ရိုက်ထည့်လိုက်တဲ့အတွက် **NNLDS Myanmar Tokenizer API Service** ကို အောင်မြင်စွာ ဖွင့်နိုင်ခဲ့ပါပြီ။
+
+-----
+
+## 🚀 API Server ကို အသုံးပြုနည်း
+
+အခုဆိုရင် သင့်ရဲ့ AI စနစ်တွေ၊ Web Application တွေနဲ့ **`http://localhost:3000`** ကို ခေါ်ယူပြီး စာသားခွဲခြမ်းစိတ်ဖြာခြင်း (Tokenization) ကို စတင် လုပ်ဆောင်နိုင်ပါပြီ။
+
+### ၁။ Server အခြေအနေ စစ်ဆေးခြင်း (`/health`)
+
+Browser ဒါမှမဟုတ် Command Line ကနေ Server အလုပ်လုပ်နေမှု အခြေအနေကို စစ်ဆေးနိုင်ပါတယ်။
+
+  * **Browser (သို့) Tool မှ ခေါ်ယူပုံ:**
+    ```
+    http://localhost:3000/health
+    ```
+  * **ရလဒ် (JSON):**
+    ```json
+    {
+      "status": "healthy",
+      "service": "NNLDS Myanmar Tokenizer API",
+      "version": "1.0.0",
+      "tokenizer_status": {
+        "status": "ready",
+        "version": "7.0",
+        "options": {
+          // ... options များ
+        },
+        // ... dataStats များ
+      }
+    }
+    ```
+
+-----
+
+### ၂။ စာသား ခွဲခြမ်းစိတ်ဖြာခြင်း (`/tokenize`)
+
+Tokenization လုပ်လိုတဲ့ စာသားကို **Query Parameter** (သို့) **POST Body** ကနေ ပေးပို့နိုင်ပါတယ်။
+
+#### A. GET Request (Browser တွင် စမ်းသပ်ရန် အလွယ်ဆုံး)
+
+URL ထဲမှာ `text` parameter ကို ထည့်ပြီး ခေါ်ယူပါ။ (မြန်မာစာသားကို URL Encoding လုပ်ဖို့ လိုအပ်နိုင်ပါတယ်။)
+
+  * **Browser တွင် ခေါ်ယူပုံ ဥပမာ:**
+    ```
+    http://localhost:3000/tokenize?text=မင်္ဂလာပါ
+    ```
+
+#### B. POST Request (AI/Application မှ အသုံးပြုရန် အကောင်းဆုံး)
+
+JSON ပုံစံဖြင့် `text` ကို Body ထဲမှာ ထည့်သွင်းပြီး POST Request ပို့ပါ။ (ဥပမာ - Python, JavaScript, Postman စသည့် Tool များဖြင့်)
+
+  * **Endpoint:**
+    ```
+    http://localhost:3000/tokenize
+    ```
+  * **Body (JSON):**
+    ```json
+    {
+      "text": "ဒီကုမ္ပဏီက တော်တော်ကောင်းတယ်။"
+    }
+    ```
+  * **ရလဒ် (JSON):**
+    ```json
+    {
+      "status": "success",
+      "input_text": "ဒီကုမ္ပဏီက တော်တော်ကောင်းတယ်။",
+      "token_count": 8,
+      "duration_ms": "0.15",
+      "tokens": [
+        {
+          "syllable": "ဒီ",
+          "consonant": "က",
+          // ... token details
+        },
+        // ... ကျန်တဲ့ tokens များ
+      ]
+    }
+    ```
+
+**မှတ်ချက်။** သင်၏ API Server သည် **Terminal ကို ပိတ်လိုက်ပါက ရပ်တန့်သွားပါမည်။** အမြဲတမ်း အလုပ်လုပ်နေစေလိုပါက `pm2` သို့မဟုတ် `nodemon` ကဲ့သို့သော Process Manager များ အသုံးပြုရန် လိုအပ်ပါလိမ့်မည်။
