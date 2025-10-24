@@ -1,0 +1,26 @@
+{
+  "name": "nnlds-myanmar-tokenizer",
+  "version": "1.0.0",
+  "description": "NNLDS Myanmar Tokenizer for CLI and API use",
+  "main": "tokenize_cli.js",
+  "scripts": {
+    "start": "node tokenize_cli.js",
+    "tokenize": "node tokenize_cli.js",
+    "api": "node tokenize_api.js",
+    "test": "node -e \"const { createMultilingualTokenizer } = require('./myanmar_tokenizer'); const tokenizer = createMultilingualTokenizer(); console.log(JSON.stringify(tokenizer.tokenize('မင်္ဂလာပါ'), null, 2));\""
+  },
+  "keywords": [
+    "myanmar",
+    "burmese",
+    "tokenization",
+    "nlp",
+    "myanmar-language",
+    "ai",
+    "text-processing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
