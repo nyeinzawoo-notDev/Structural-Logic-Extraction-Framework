@@ -1,0 +1,11 @@
+Key Name, ဖော်ပြချက်, Data Type, ဥပမာ
+consonant, မြန်မာဗျည်း (Grapheme), String, "က", "ခ", "ကျ"
+type, ဗျည်းအမျိုးအစား (ရှေးရိုးဗျည်း၊ NNLDS ဗျည်း၊ ဗျည်းတွဲ), String, "ဗျည်းတွဲ (က+ယ)"
+h_id, Hierarchical ID (H-ID): $\text{C\_ID.T M}$, String, "70.30"
+base_unicode, ဗျည်း၏ ယူနီကုဒ် (Grapheme Code Points), String, "U+1000 U+103B"
+freq_rank, အသုံးပြုမှု အကြိမ်ရေ အဆင့်, Float, 16
+p_val, အသံထွက်တန်ဖိုး (Phonetic Value), Float, 70
+c_score, ရှုပ်ထွေးမှု အမှတ် (Complexity Score), Integer, 3
+s_den, အဓိပ္ပာယ်သိပ်သည်းဆ (Semantic Density), Integer, 3
+g_type, စာလုံးအမျိုးအစား (Grapheme Type: 1, 2, or 3), Integer, 3
+m_code, ဝဆွဲပါဝင်မှု ကုတ် (Medial Code: 0=မပါဝင်), Integer, 0
